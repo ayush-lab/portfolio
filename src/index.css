@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+
+@font-face {
+  font-family: "Popins";
+  src: url("Assets/fonts/Poppins-Black.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Popins";
+  src: url("Assets/fonts/Poppins-BlackItalic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Popins";
+  src: url("Assets/fonts/Poppins-Bold.ttf");
+  font-weight: 400;
+  font-style: bold;
+}
+@font-face {
+  font-family: "Popins";
+  src: url("Assets/fonts/Poppins-ExtraBold.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Popins";
+  src: url("Assets/fonts/Poppins-ExtraLight.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Popins";
+  src: url("Assets/fonts/Poppins-Medium.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: "Popins";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+h1 {
+  color: white;
+}
+.Typer{
+  font-family: "popins";
+  font-weight: 300;
+}
+
+#cursor {
+  border-left: .1em solid white;
+  animation: blink .7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

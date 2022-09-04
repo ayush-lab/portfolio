@@ -1,0 +1,44 @@
+.main {
+    font-family: "popins";
+    font-weight:300;
+    width: 100%;
+    padding-left:8%;
+    padding-right:8%;
+    background-color: #111827;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainLeft {
+    width:50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:2.5rem;
+
+}
+.mainLeft p:nth-child(1){
+    margin-bottom:0px;
+}
+.mainLeft p:nth-child(2){
+    margin-bottom: 24px;
+}
+
+.mainRight{
+    width:50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.mainRight img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.Typer{
+    font-size:2rem;
+}
