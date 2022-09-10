@@ -1,0 +1,39 @@
+.main{
+    padding-left:10%;
+    padding-right:10%;
+    font-family: "Popins";
+    padding-bottom:100px;
+
+}
+.heading{
+    background-image: linear-gradient(120deg, #141C3A, #141c3aad, #141c3a67);
+	background-size: 200%;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+    font-size: 32px;
+}
+.headingText{
+    font-size: 22px;
+    font-weight:300;
+}
+.stacks{
+    font-weight: 300;
+    font-size:16px;
+}
+
+.logoSection{
+    margin-top:24px;
+}
+
+.logoImages{
+    display: flex;
+    gap: 24px;
+    margin-top:12px;
+}
+
+.logoImages img{
+    width:80px;
+    height:80px;
+    background-size: cover;
+}

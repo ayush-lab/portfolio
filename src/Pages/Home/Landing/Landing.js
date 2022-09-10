@@ -1,6 +1,6 @@
 import { React } from 'react';
 import styles from './Landing.module.css';
-import Ayush from "../../../Assets/Images/ayush.JPG";
+import Ayush from "../../../Assets/Images/heroPic.jpg";
 import Typer from '../../../Components/Typer';
 
 function Landing() {
@@ -12,9 +12,11 @@ function Landing() {
             <div className={styles.main}>
 
                 <div className={styles.mainLeft}>
-                    <p>Hey 👋🏻</p>
-                    <p> This is Ayush</p>
-                    <p className={styles.Typer}><Typer
+                    <p>Hey 👋🏻, This is Ayush  </p>
+                    <p>As a developer,
+                        my superpower happens behind the scenes to make a digital product look great, work fast
+                        and perform well with a seamless user experience.</p>
+                    {/* <p className={styles.Typer}><Typer
                         heading=""
                         dataText={[
                             "I'm a React developer.",
@@ -23,7 +25,9 @@ function Landing() {
                             "I'm a national badminton player."
                             
                         ]}/>
-                        </p>
+                        </p> */}
+
+                    <div></div>
 
                 </div>
 

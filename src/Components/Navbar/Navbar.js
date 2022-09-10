@@ -1,34 +1,89 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import React, { useState } from "react";
+import styles from "./Navbar.module.css";
+import {NavLink} from 'react-router-dom';
+import logo from "../../Assets/Images/logo.png";
+import {MenuOutlined} from '@ant-design/icons';
 
-function NavBar() {
+
+export default function Navbar() {
+  const [userLoggedIn, setUserLoggedIn] = useState(false);
+  const [open,setOpen] = React.useState(false);
+
+  React.useEffect(() => {
+      
+     
+      let handler = (event) => {
+        if (!navNode.current.contains(event.target) && !toggler.current.contains(event.target)) {
+          setOpen(false);
+        }
+      };
+      document.addEventListener("mousedown", handler);
+      return () => {
+        document.removeEventListener("mousedown", handler);
+      };
+    }, []);
+  
+    let navNode = React.useRef();
+    let toggler = React.useRef();
+
+    console.log(open);
+
+    
+
+  // const toLoginIn = ()=>{
+  //   authDispatch({type:LOGINSTATUS,payload:true});
+  // }
+
+
+  // const togglerOff = ()=>{
+  //   authDispatch({type:LOGINSTATUS,payload:false});
+  // }
+
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">Ayush</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <div>
+
+      <div className={styles.Nav}>
+
+        <div className={styles.Navbar}>
+          <NavLink to="/">
+            <div className={styles.NavbarLogo}>
+              <img src={logo} alt="Ayush_logo" />
+            </div>
+          </NavLink>
+
+        <div className={styles.NavbarToggler}>
+            <MenuOutlined ref={toggler} onClick={()=>setOpen(prevState=>!prevState)}  />
+
+            <div ref={navNode} className={open ? styles.NavbarTogglerMenu : styles.none}>
+              <div className={styles.TogglerLinks}>
+
+
+                <NavLink style={{textDecoration:"none"}} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Mobile Repair</li></NavLink>
+                
+                <NavLink style={{textDecoration:"none"}} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Track Repair</li></NavLink>
+              
+              </div>
+          
+          </div>
+
+        
+        </div>
+
+          <div className={styles.NavbarLink}>
+            <span>About</span>
+            <span>Projects</span>
+            <span>Experiences</span>
+          </div>
+
+          <div className={styles.NavbarIcons}>
+            <div className={styles.NavbarIconsImg}>
+              {/* <img src={cart} alt="profile icon of repairo" /> */}
+            </div>
+
+          </div>
+
+        </div>
+       </div>
+    </div>
   );
 }
-
-export default NavBar;

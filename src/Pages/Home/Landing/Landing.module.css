@@ -2,14 +2,15 @@
     font-family: "popins";
     font-weight:300;
     width: 100%;
-    padding-left:8%;
-    padding-right:8%;
-    background-color: #111827;
+    padding-left:10%;
+    padding-right:10%;
+    /* background-color: #111827; */
     height: 100vh;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    background:#272727;
 }
 
 .mainLeft {
@@ -18,13 +19,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size:2.5rem;
-
+    font-size:1rem;
+    font-weight:400;
+    /* color:#141C3A; */
+    color:white;
 }
 .mainLeft p:nth-child(1){
-    margin-bottom:0px;
+    margin-bottom:8px;
+    font-size:32px;
 }
 .mainLeft p:nth-child(2){
+    font-size:16px;
     margin-bottom: 24px;
 }
 
@@ -41,4 +46,5 @@
 }
 .Typer{
     font-size:2rem;
+
 }

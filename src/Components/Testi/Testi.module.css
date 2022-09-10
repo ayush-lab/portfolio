@@ -1,0 +1,26 @@
+
+.CarousalSlide{
+    text-align: center;
+}
+.imageIcon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.imageIcon img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.textCarousal{
+    margin-top:12px;
+}
+.tags{
+    padding-bottom: 20px;
+    padding-top:10px;
+}
+.name{
+    color:#141C3A;
+    font-weight: 600;
+}

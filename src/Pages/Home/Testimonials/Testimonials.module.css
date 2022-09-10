@@ -1,0 +1,21 @@
+.main{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.Heading{
+    margin-bottom:16px;
+}
+.Heading,.subHeading{
+    color:#141C3A;
+}
+.subHeading{
+    font-weight: 400;
+}
+
+.Carousal{
+    width: calc(100vh - 12px);
+    padding:50px;
+}

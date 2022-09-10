@@ -1,0 +1,143 @@
+.Nav{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index:10;
+    font-family: "popins";
+}
+.Navbar{
+    height:75px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left:10%;
+    padding-right:10%;
+    align-items: center;
+    /* margin-top:54px; */
+}
+.NavbarLink{
+    display: flex;
+}
+.NavbarLink span{
+    color:black !important;
+    padding-left:24px;
+    text-transform: uppercase;
+    font-family: "popins";
+    font-weight: 350;
+    font-size:16px;
+}
+.Navbar span:nth-child(1){
+    padding-left: 0;
+}
+/* .Navbar span:nth-child(3){
+    text-decoration: underline;
+} */
+
+.NavbarLogo{
+    display: flex;
+    align-items: center;
+}
+.NavbarLogo img{
+    height: 100%;
+    width:80%;
+    width:40px;
+}
+
+.NavbarIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.NavbarIcons .NavbarIconsImg:nth-child(1){
+    margin-right:12px;
+    opacity: 0;
+    visibility: hidden;
+}
+.NavbarIconsImg{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavbarIconsImg img{
+    height: 80%;
+    width: 80%;
+}
+
+.NavbarToggler{
+    display: none;
+}
+.NavbarTogglerMenu,.none{
+    overflow: hidden;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 900px) {
+    .NavbarLink{
+        display: none;
+    }
+    .NavbarIcons{
+        display: none;
+    }
+    .NavbarToggler{
+        position: relative;
+        display: inline-block;
+        /* overflow:hidden; */
+
+    }
+    .NavbarTogglerMenu,.none{
+        position: fixed;
+        right:-90px;
+        top:calc(75px );
+        /* width: 100px; */
+        /* height: 100px; */
+        height: 100vh;
+        width: calc(100vw - 50vw);
+        background: #00042A;
+        z-index: 1000;
+        transition: all 0.5s ease-in-out;
+        transform: translateX(0);
+        overflow-y: scroll;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .none{
+        transform: translateX(50vw);
+        z-index: -1;
+
+    }
+    .TogglerLinks{
+        overflow: hidden;
+        position: static;
+        list-style-type: none;
+    }
+    .TogglerLink li{
+        padding:16px;
+        padding-left:22px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.127);
+        color: white;
+        text-transform: capitalize;
+    }
+    .TogglerLink{
+        display: block;
+    }
+    .LoginBtn{
+        background-color: #4e537e29;
+    }
+  }
+
+
+  @media only screen and (max-width: 550px) {
+   .Navbar {
+        /* padding-left:12px ;
+        padding-right: 12px; */
+    }
+    .NavbarTogglerMenu,.none{
+        position: fixed;
+        right:-0px;
+    }
+  }

@@ -56,13 +56,40 @@ h1 {
 }
 .Typer{
   font-family: "popins";
-  font-weight: 300;
+  font-weight:400;
+
 }
 
 #cursor {
   border-left: .1em solid white;
   animation: blink .7s steps(1) infinite;
 }
+.ant-carousel .slick-dots li.slick-active button{
+  background-color: #141C3A !important;
+}
+
+.ant-carousel .slick-dots li button{
+  background-color: black !important;
+  /* border: solid 0.5px grey !important;  */
+}
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #141c3a62;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #141c3a62;
+}
+
 
 @keyframes blink {
   50% {
