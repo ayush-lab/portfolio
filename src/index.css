@@ -37,11 +37,84 @@
   font-weight: 300;
   font-style: normal;
 }
+
+
+@font-face {
+  font-family: "Popins";
+  src: url("Assets/fonts/Poppins-Black.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Popins";
+  src: url("Assets/fonts/Poppins-BlackItalic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Popins";
+  src: url("Assets/fonts/Poppins-Bold.ttf");
+  font-weight: 400;
+  font-style: bold;
+}
+@font-face {
+  font-family: "Popins";
+  src: url("Assets/fonts/Poppins-ExtraBold.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Popins";
+  src: url("Assets/fonts/Poppins-ExtraLight.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Popins";
+  src: url("Assets/fonts/Poppins-Medium.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+/* arimo */
+
+
+@font-face {
+  font-family: "Arimo";
+  src: url("Assets/fonts/Arimo-Medium.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arimo";
+  src: url("Assets/fonts/Arimo-Regular.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("Assets/fonts/Cormorant-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cormorant";
+  src: url("Assets/fonts/Cormorant-Light.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: "Popins";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 code {
@@ -65,11 +138,11 @@ h1 {
   animation: blink .7s steps(1) infinite;
 }
 .ant-carousel .slick-dots li.slick-active button{
-  background-color: #141C3A !important;
+  background-color: white !important;
 }
 
 .ant-carousel .slick-dots li button{
-  background-color: black !important;
+  background-color: white !important;
   /* border: solid 0.5px grey !important;  */
 }
 
@@ -95,4 +168,12 @@ body::-webkit-scrollbar-thumb
   50% {
     border-color: transparent;
   }
+}
+
+.line_break{
+  width: 80%;
+  margin-left:10%;
+  margin-right:10%;
+  height:1px;
+  background-color:white;
 }

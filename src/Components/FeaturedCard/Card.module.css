@@ -1,0 +1,64 @@
+.Label {
+    border: 1px solid #FFFFFF;
+    border-radius: 28px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: "Arimo";
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    text-transform: uppercase;
+    font-size:14px;
+}
+.link span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:4px;
+}
+.link span:nth-child(1) {
+    font-family: "Arimo";
+}
+
+.arrow {
+    transform: rotate(40deg);
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 100%;
+}
+
+.image img {
+    width: 350px;
+}
+
+.desc{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    padding-top:12px;
+}
+.text h4{
+    font-family: "Arimo";
+    color:white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size:18px;
+}
+
+.text p{
+    font-family: "Cormorant";
+
+}

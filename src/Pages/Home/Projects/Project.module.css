@@ -1,0 +1,19 @@
+.ProjectSection{
+    
+}
+
+.Project{
+    padding-top:24px;
+    padding-bottom:24px;
+    padding-left:10%;
+    padding-right:10%;
+    background-color: #272727;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'popins';
+    font-weight: 250;
+    height: calc(100vh - 54px);
+}

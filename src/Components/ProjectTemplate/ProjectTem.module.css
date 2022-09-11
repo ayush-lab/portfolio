@@ -1,0 +1,53 @@
+
+.main{
+    display:flex;
+}
+.Left{
+    padding-right:34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Left,.Right{
+    width: 50%;
+}
+
+.Right img{
+    width: 100%;
+}
+
+.Heading{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Arimo";
+    font-weight:400;
+    font-size:32px;
+}
+.subHeading{
+    margin-bottom:40px;
+    font-family: "Cormorant";
+    font-size:18px;
+    text-transform: capitalize;
+}
+.Desc{
+    font-family: "Cormorant";
+    font-size:18px;   
+}
+.tags{
+    display:flex;
+    gap:8px;
+}
+
+.link{
+    margin-top:40px;
+    display: flex;
+    gap:8px;
+    align-items: center;
+    text-transform: uppercase;
+}
+.link span:nth-child(1){
+    font-family:"Arimo";
+}
+.arrow{
+    transform: rotate(40deg);
+}

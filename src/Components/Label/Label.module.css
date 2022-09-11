@@ -1,0 +1,12 @@
+.Label{
+    border: 1px solid #FFFFFF;
+    border-radius: 28px;
+    padding-right:16px;
+    padding-left:16px;
+    padding-top:2px;
+    padding-bottom:2px;
+    width: auto;
+    font-family: "Arimo";
+    text-transform: capitalize;
+    font-weight: 200;
+}

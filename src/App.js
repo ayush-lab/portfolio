@@ -8,30 +8,18 @@ function App() {
   return (
     <>
       <AnimatedCursor
-      innerSize={8}
-      outerSize={8}
-      color='193, 11, 111'
-      outerAlpha={0.5}
-      innerScale={0.7}
-      outerScale={5}
-      clickables={[
-        'a',
-        'input[type="text"]',
-        'input[type="email"]',
-        'input[type="number"]',
-        'input[type="submit"]',
-        'input[type="image"]',
-        'label[for]',
-        'select',
-        'textarea',
-        'button',
-        '.link'
-      ]}
-    />
+          innerSize={8}
+          outerSize={32}
+          color="255, 95, 61"
+          outerAlpha={0.2}
+          innerScale={0.7}
+          outerScale={5}
+          // trailingSpeed={5}
+        />
       <BrowserRouter>
 
         <Routes>
-          <Route path="/home" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
           
         </Routes>
 

@@ -45,6 +45,7 @@ export default function Navbar() {
       <div className={styles.Nav}>
 
         <div className={styles.Navbar}>
+          
           <NavLink to="/">
             <div className={styles.NavbarLogo}>
               <img src={logo} alt="Ayush_logo" />
@@ -73,14 +74,16 @@ export default function Navbar() {
             <span>About</span>
             <span>Projects</span>
             <span>Experiences</span>
+            <span>Testimonials</span>
+            
           </div>
-
+{/* 
           <div className={styles.NavbarIcons}>
             <div className={styles.NavbarIconsImg}>
-              {/* <img src={cart} alt="profile icon of repairo" /> */}
+              <img src={cart} alt="profile icon of repairo" />
             </div>
 
-          </div>
+          </div> */}
 
         </div>
        </div>

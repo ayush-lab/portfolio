@@ -4,6 +4,8 @@ import Landing from './Landing/Landing';
 import Testi from './Testimonials/Testimonials';
 import Skills from './Skills/skills';
 import About from './AboutMe/About';
+import Project from './Projects/Project';
+import Featured from './Featured/Featured';
 
 function Home() {
     
@@ -11,6 +13,8 @@ function Home() {
      <>
         <NavBar/>
         <Landing/>
+        <Project/>
+        <Featured/>
         <Skills/>
         <Testi/>
         <About/>

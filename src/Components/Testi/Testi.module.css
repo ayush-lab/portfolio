@@ -1,6 +1,7 @@
 
 .CarousalSlide{
     text-align: center;
+    font-family: "Arimo";
 }
 .imageIcon{
     display: flex;
@@ -15,12 +16,15 @@
 
 .textCarousal{
     margin-top:12px;
+    color: white;
+    font-family: "Cormorant";
+    font-size:16px;
 }
 .tags{
     padding-bottom: 20px;
     padding-top:10px;
 }
 .name{
-    color:#141C3A;
+    color:white;
     font-weight: 600;
 }

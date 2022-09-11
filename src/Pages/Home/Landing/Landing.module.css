@@ -1,6 +1,9 @@
+.hero{
+    background:#272727;
+}
 .main {
-    font-family: "popins";
-    font-weight:300;
+    font-family: 'Cormorant';
+    font-weight:200;
     width: 100%;
     padding-left:10%;
     padding-right:10%;
@@ -8,9 +11,9 @@
     height: 100vh;
     color: white;
     display: flex;
-    justify-content: center;
+    /* flex-direction: column; */
+    justify-content: space-between;
     align-items: center;
-    background:#272727;
 }
 
 .mainLeft {
@@ -18,25 +21,38 @@
     height: inherit;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    font-size:1rem;
-    font-weight:400;
+    justify-content: flex-end;
+    font-weight:200;
+    padding-bottom:5%;
     /* color:#141C3A; */
     color:white;
 }
+.mainLeft p:nth-child(1),
+.mainLeft p:nth-child(2){
+    margin-bottom:8px;
+    font-size:25px;
+}
+
 .mainLeft p:nth-child(1){
     margin-bottom:8px;
-    font-size:32px;
 }
 .mainLeft p:nth-child(2){
+    margin-bottom:8px;
+
+}
+.mainLeft p:nth-child(3){
     font-size:16px;
     margin-bottom: 24px;
+
 }
+
 
 .mainRight{
     width:50%;
+    padding-bottom:5%;
     height: inherit;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 .mainRight img{
@@ -46,5 +62,23 @@
 }
 .Typer{
     font-size:2rem;
+}
+.Links{
+    display: flex;
+    gap:24px;
+}
+.resumeBtn{
+    align-self: unset;
+    font-family: "Arimo";
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size:16px;
+    margin-left:16px;
+    /* border-bottom:1px solid white; */
+}
 
+
+.arrow {
+    transform: rotate(40deg);
+    transform: translate(-0%, -20%) rotate(40deg);
 }
