@@ -82,3 +82,41 @@
     transform: rotate(40deg);
     transform: translate(-0%, -20%) rotate(40deg);
 }
+
+
+@media (max-width: 1000px) {
+  
+    .main {
+        padding-left:10%;
+        padding-right:10%;
+        /* background-color: #111827; */
+        height: 100vh;
+        color: white;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .mainLeft p:nth-child(1),
+    .mainLeft p:nth-child(2){
+        margin-bottom:8px;
+        font-size:20px;
+    }
+    
+ 
+ 
+ 
+    
+   
+    .resumeBtn{
+        align-self: unset;
+        font-family: "Arimo";
+        text-transform: capitalize;
+        font-weight: 200;
+        font-size:12px;
+        margin-left:16px;
+        /* border-bottom:1px solid white; */
+    }
+    
+  }

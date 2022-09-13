@@ -22,7 +22,7 @@ function Testi() {
                 <h2 className={styles.Heading}> Testimonials </h2>
                 <h4 className={styles.subHeading}> People that I have worked with have said </h4>
 
-                <Carousel autoplay={true} effect="fade"  className={styles.Carousal}>
+                <Carousel effect="fade"  className={styles.Carousal}>
 
                     <TestiProfile img={MadhurSir} alt={"madhurProfile"} text={"Ayush is a great team mate to work with, having the desired skills be it in technical or managerial terms. He has a solid foundation of computer science and puts the required amount of hard work and dedication to accomplish a given task. A great team member, learner and visionary."} 
                                   name={"Madhur Vashistha"} tag1={"Google"} tag2={"Ex-Amazon"} tag3={"SDC"}

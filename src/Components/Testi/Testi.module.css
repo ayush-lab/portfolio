@@ -24,7 +24,11 @@
     padding-bottom: 20px;
     padding-top:10px;
 }
-.name{
+.name,.subName{
     color:white;
     font-weight: 600;
+}
+.subName{
+    font-family: "Arimo";
+    font-weight:400;
 }

@@ -19,9 +19,11 @@ export default function TestiProfile(props) {
 
                 <div className={styles.tags}>
                     <h4 className={styles.name}>{props.name}</h4>
-                    <Tag color="blue">{props.tag1}</Tag>
+                    {/* <Tag color="blue">{props.tag1}</Tag>
                     <Tag color="blue">{props.tag2}</Tag>
-                    <Tag color="blue">{props.tag3}</Tag>
+                    <Tag color="blue">{props.tag3}</Tag> */}
+                    <p className={styles.subName}>Currently working at {props.tag1}</p>
+
                 </div>
             </div>
         </>

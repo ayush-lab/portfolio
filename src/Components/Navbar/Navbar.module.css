@@ -96,7 +96,8 @@
         /* height: 100px; */
         height: 100vh;
         width: calc(100vw - 50vw);
-        background: #00042A;
+    background:rgb(85, 164, 190);
+
         z-index: 1000;
         transition: all 0.5s ease-in-out;
         transform: translateX(0);
