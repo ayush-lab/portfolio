@@ -6,6 +6,7 @@ import Skills from './Skills/skills';
 import About from './AboutMe/About';
 import Project from './Projects/Project';
 import Featured from './Featured/Featured';
+import Experience from './Experience/Experience';
 
 function Home() {
     
@@ -16,6 +17,7 @@ function Home() {
         <Project/>
         <Featured/>
         <Skills/>
+        <Experience/>
         <Testi/>
         <About/>
 
