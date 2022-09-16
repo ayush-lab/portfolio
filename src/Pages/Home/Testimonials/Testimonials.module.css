@@ -1,9 +1,11 @@
 .main{
-    height:100vh;
     display: flex;
     flex-direction: column;
     background-color: #272727;
     align-items: center;
+    padding-top: 5%;
+    padding-bottom:5%;
+
 }
 .Heading{
     margin-bottom:16px;
@@ -17,6 +19,6 @@
 }
 
 .Carousal{
-    width: calc(100vh - 12px);
+    width: calc(100vw - 12px);
     padding:50px;
 }

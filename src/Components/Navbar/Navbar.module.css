@@ -1,74 +1,82 @@
-.Nav{
+.Nav {
     position: fixed;
-    top:0;
+    top: 0;
     width: 100%;
-    z-index:10;
+    z-index: 10;
     font-family: "Arimo";
-    
+
 }
-.Navbar{
-    height:75px;
-    background:#272727;
+
+.Navbar {
+    height: 75px;
+    background: #272727;
     display: flex;
     justify-content: space-between;
-    padding-left:10%;
-    padding-right:10%;
+    padding-left: 10%;
+    padding-right: 10%;
     align-items: center;
     /* margin-top:54px; */
 }
-.NavbarLink{
+
+.NavbarLink {
     display: flex;
 }
-.NavbarLink span{
-    color:white !important;
-    padding-left:24px;
+
+.NavbarLink span {
+    color: white !important;
+    padding-left: 24px;
     text-transform: uppercase;
     font-weight: 200;
-    font-size:16px;
+    font-size: 16px;
 }
-.Navbar span:nth-child(1){
+
+.Navbar span:nth-child(1) {
     padding-left: 0;
 }
-/* .Navbar span:nth-child(3){
-    text-decoration: underline;
-} */
 
-.NavbarLogo{
+
+.NavbarLogo {
     display: flex;
     align-items: center;
 }
-.NavbarLogo img{
+
+.NavbarLogo img {
     height: 100%;
-    width:80%;
-    width:40px;
+    width: 80%;
+    width: 40px;
 }
 
-.NavbarIcons{
+.NavbarIcons {
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
-.NavbarIcons .NavbarIconsImg:nth-child(1){
-    margin-right:12px;
+
+.NavbarIcons .NavbarIconsImg:nth-child(1) {
+    margin-right: 12px;
     opacity: 0;
     visibility: hidden;
 }
-.NavbarIconsImg{
+
+.NavbarIconsImg {
     padding: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.NavbarIconsImg img{
+
+.NavbarIconsImg img {
     height: 80%;
     width: 80%;
 }
 
-.NavbarToggler{
+.NavbarToggler {
     display: none;
 }
-.NavbarTogglerMenu,.none{
+
+.NavbarTogglerMenu,
+.none {
     overflow: hidden;
 }
 
@@ -76,69 +84,81 @@
 /* media queries */
 
 @media only screen and (max-width: 900px) {
-    .NavbarLink{
+    .NavbarLink {
         display: none;
     }
-    .NavbarIcons{
+
+    .NavbarIcons {
         display: none;
     }
-    .NavbarToggler{
+
+    .NavbarToggler {
         position: relative;
         display: inline-block;
         /* overflow:hidden; */
 
     }
-    .NavbarTogglerMenu,.none{
+
+    .NavbarTogglerMenu,
+    .none {
         position: fixed;
-        right:-90px;
-        top:calc(75px );
+        right: -90px;
+        top: calc(75px);
         /* width: 100px; */
         /* height: 100px; */
         height: 100vh;
         width: calc(100vw - 50vw);
-    background:rgb(85, 164, 190);
-
+        background: #272727;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
         z-index: 1000;
         transition: all 0.5s ease-in-out;
         transform: translateX(0);
         overflow-y: scroll;
         overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     }
 
-    .none{
+    .none {
         transform: translateX(50vw);
         z-index: -1;
 
     }
-    .TogglerLinks{
+
+    .TogglerLinks {
         overflow: hidden;
         position: static;
         list-style-type: none;
     }
-    .TogglerLink li{
-        padding:16px;
-        padding-left:22px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.127);
+
+    .TogglerLink li {
+        padding: 16px;
+        padding-left: 22px;
+        border-bottom: 1px solid rgba(255, 140, 0, 0.189);
         color: white;
         text-transform: capitalize;
     }
-    .TogglerLink{
+
+    .TogglerLink {
         display: block;
     }
-    .LoginBtn{
+
+    .LoginBtn {
         background-color: #4e537e29;
     }
-  }
+}
 
 
-  @media only screen and (max-width: 550px) {
-   .Navbar {
+@media only screen and (max-width: 550px) {
+    .Navbar {
         /* padding-left:12px ;
         padding-right: 12px; */
     }
-    .NavbarTogglerMenu,.none{
+
+    .NavbarTogglerMenu,
+    .none {
         position: fixed;
-        right:-0px;
+        right: -0px;
     }
-  }
+}

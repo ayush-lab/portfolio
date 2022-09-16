@@ -170,10 +170,10 @@ body::-webkit-scrollbar-thumb
   }
 }
 
-.line_break{
+/* .line_break{
   width: 80%;
   margin-left:10%;
   margin-right:10%;
   height:1px;
   background-color:white;
-}
+} */

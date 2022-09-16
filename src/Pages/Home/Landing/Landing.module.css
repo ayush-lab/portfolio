@@ -104,11 +104,6 @@
         font-size:20px;
     }
     
- 
- 
- 
-    
-   
     .resumeBtn{
         align-self: unset;
         font-family: "Arimo";
@@ -116,7 +111,37 @@
         font-weight: 200;
         font-size:12px;
         margin-left:16px;
-        /* border-bottom:1px solid white; */
+    }
+    
+  }
+
+  
+@media (max-width: 700px) {
+  
+    .main {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom:10%;
+    }
+    .mainLeft{
+        width: 70%;
+    }
+    
+    .mainLeft p:nth-child(1),
+    .mainLeft p:nth-child(2){
+        margin-bottom:8px;
+        font-size:16px;
+    }
+    
+    .resumeBtn{
+        align-self: unset;
+        font-family: "Arimo";
+        text-transform: capitalize;
+        font-weight: 200;
+        font-size:12px;
+        margin-left:16px;
     }
     
   }

@@ -28,8 +28,7 @@ export default function Skills() {
                     <img src={ReactLogo} alt="frontend" />
                     <img src={Redux} alt="frontend" />
                     <img src={Html} alt="frontend" />
-                    <img src={Css} alt="frontend" />
-                    <img src={Figma} alt="frontend" />
+                   
 
                 </div>
             </div>

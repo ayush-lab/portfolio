@@ -8,7 +8,7 @@ export default function Featured() {
   return (
      <div className={styles.Featured}>
 
-         <div className={styles.lineBreak}></div>
+         {/* <div className={styles.lineBreak}></div> */}
 
          <h3>Featured Projects</h3>
 

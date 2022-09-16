@@ -8,7 +8,6 @@ export default function Experience() {
   return (
      <div className={styles.Featured}>
 
-         <div className={styles.lineBreak}></div>
 
          <h3>Experiences</h3>
 

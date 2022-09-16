@@ -10,11 +10,6 @@ export default function Navbar() {
   const [open, setOpen] = React.useState(false);
 
   React.useEffect(() => {
-
-    // const ScrollToMobile = () => {
-    //   mobile_ref.current.scrollIntoView({ behavior: "smooth" });
-    // };
-    
     
     let handler = (event) => {
       if (!navNode.current.contains(event.target) && !toggler.current.contains(event.target)) {
@@ -29,19 +24,6 @@ export default function Navbar() {
 
   let navNode = React.useRef();
   let toggler = React.useRef();
-
-  console.log(open);
-
-
-
-  // const toLoginIn = ()=>{
-  //   authDispatch({type:LOGINSTATUS,payload:true});
-  // }
-
-
-  // const togglerOff = ()=>{
-  //   authDispatch({type:LOGINSTATUS,payload:false});
-  // }
 
   return (
     <div>
@@ -63,9 +45,12 @@ export default function Navbar() {
               <div className={styles.TogglerLinks}>
 
 
-                <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >About</li></NavLink>
 
                 <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Projects</li></NavLink>
+                <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Skills</li></NavLink>
+                <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Experience</li></NavLink>
+                <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Testimonials</li></NavLink>
+                <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >About</li></NavLink>
 
               </div>
 
@@ -81,13 +66,7 @@ export default function Navbar() {
             <span>Testimonials</span>
 
           </div>
-          {/* 
-          <div className={styles.NavbarIcons}>
-            <div className={styles.NavbarIconsImg}>
-              <img src={cart} alt="profile icon of repairo" />
-            </div>
-
-          </div> */}
+      
 
         </div>
       </div>
