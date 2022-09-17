@@ -32,3 +32,33 @@
     font-family: "Arimo";
     font-weight:400;
 }
+
+
+@media only screen and (max-width: 1000px) {
+
+    .imageIcon{
+        margin-bottom: 24px;
+    }
+    .imageIcon img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .textCarousal{
+        margin-top:12px;
+        font-size:14px;
+    }
+    .tags{
+        padding-bottom: 20px;
+        padding-top:8px;
+    }
+    .name,.subName{
+        font-weight: 600;
+    }
+    .subName{
+        font-family: "Arimo";
+        font-weight:400;
+    }
+    
+    
+}

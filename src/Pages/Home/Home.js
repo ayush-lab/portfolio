@@ -7,6 +7,7 @@ import About from './AboutMe/About';
 import Project from './Projects/Project';
 import Featured from './Featured/Featured';
 import Experience from './Experience/Experience';
+import Footer from './Footer/Footer';
 
 function Home() {
     
@@ -19,7 +20,8 @@ function Home() {
         <Skills/>
         <Experience/>
         <Testi/>
-        <About/>
+        {/* <About/> */}
+        <Footer/>
 
      </>
   );

@@ -19,6 +19,30 @@
 }
 
 .Carousal{
-    width: calc(100vw - 12px);
+    width: calc(50vw);
     padding:50px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .main{
+        align-items: center;
+        padding-top: 3%;
+        padding-bottom:3%;
+    
+    }
+    .Heading{
+        margin-bottom:16px;
+        font-size:24px;
+    }
+    .subHeading{
+        font-weight: 400;
+        font-size:16px;
+
+    }
+    
+    .Carousal{
+        width: calc(80vw);
+        padding:30px;
+    }
 }

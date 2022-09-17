@@ -1,0 +1,22 @@
+.footer{
+    background-color: #272727;
+    padding-top:2%;
+    padding-bottom:2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Links{
+    display: flex;
+    gap:24px;
+}
+
+.name{
+    color:white;
+    padding-top:18px;
+    font-family: "Arimo";
+    font-size:16px;
+}
