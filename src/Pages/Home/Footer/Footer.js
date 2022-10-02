@@ -47,7 +47,7 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.name}>
-          <span>Designed by Srishti and Developed by Ayush❤️</span>
+          <span>Designed by Srishti and Developed by Ayush❤️❤️</span>
         </div>
       </div>
     </>
