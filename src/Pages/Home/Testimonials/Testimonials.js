@@ -1,11 +1,20 @@
-import { React } from 'react';
+import React from 'react';
 import styles from './Testimonials.module.css';
 import MadhurSir from '../../../Assets/Images/madhursir.jpg';
 import ArnavSir from '../../../Assets/Images/arnavsir.jpg';
 import TestiProfile from '../../../Components/Testi/Testi';
 
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { Carousel } from 'antd';
+
+
 function Testi() {
+  
+  React.useEffect(() => {
+    Aos.init({ duration: 600 });
+  }, []);
+
     const contentStyle = {
         height: '160px',
         color: '#fff',
@@ -19,10 +28,10 @@ function Testi() {
         <>
             <div className={styles.main}>
 
-                <h2 className={styles.Heading}> Testimonials </h2>
-                <h4 className={styles.subHeading}> People that I have worked with have said </h4>
+                <h2 className={styles.Heading} data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" > Testimonials </h2>
+                <h4 className={styles.subHeading} data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" > People that I have worked with have said </h4>
 
-                <Carousel effect="fade"  className={styles.Carousal}>
+                <Carousel   className={styles.Carousal}>
 
                     <TestiProfile img={MadhurSir} alt={"madhurProfile"} text={"Ayush is a great team mate to work with, having the desired skills be it in technical or managerial terms. He has a solid foundation of computer science and puts the required amount of hard work and dedication to accomplish a given task. A great team member, learner and visionary."} 
                                   name={"Madhur Vashistha"} tag1={"Google"} tag2={"Ex-Amazon"} tag3={"SDC"}
