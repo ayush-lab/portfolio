@@ -13,3 +13,8 @@
     font-family: 'popins';
     font-weight: 250;
 }
+
+@media only screen and (max-width: 700px) {
+    .Project{padding-bottom:32px;}
+}
+
