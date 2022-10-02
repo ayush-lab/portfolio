@@ -15,6 +15,11 @@ export default function Card(props) {
     <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" className={styles.Card}>
 
       <div className={styles.image}>
+      <div className={styles.CardHover}>
+          <div className={styles.CardHoverText}>
+              <p> Saheli is for the women empowerment to save women lives from danger</p>
+          </div>
+      </div>
         <img src={props.image} alt={props.alt} />
       </div>
 
@@ -30,6 +35,9 @@ export default function Card(props) {
         </div>
 
       </div>
+
+    
+
     </div>
   );
 }

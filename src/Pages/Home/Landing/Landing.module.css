@@ -80,7 +80,6 @@
 
 .arrow {
     transform: rotate(40deg);
-    transform: translate(-0%, -20%) rotate(40deg);
 }
 
 

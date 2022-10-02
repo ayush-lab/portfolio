@@ -32,12 +32,6 @@ function Testi() {
                                   name={"Arnav Jain"} tag1={"Amazon"} tag2={"Ex-Sony"} tag3={"SDC"} 
                                   link={"https://www.linkedin.com/in/arnav-jain-555891194/"}/>
 
-                    <div>
-                        <h3 >3</h3>
-                    </div>
-                    <div>
-                        <h3 >4</h3>
-                    </div>
                 </Carousel>
             </div>
         </>

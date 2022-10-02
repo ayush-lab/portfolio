@@ -1,7 +1,8 @@
 import { Routes, Route,BrowserRouter, } from "react-router-dom";
 import Home from './Pages/Home/Home';
 import AnimatedCursor from "react-animated-cursor";
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css'
+
 
 function App() {
   
