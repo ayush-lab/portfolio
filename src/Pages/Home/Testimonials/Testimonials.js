@@ -28,8 +28,8 @@ function Testi() {
         <>
             <div className={styles.main}>
 
-                <h2 className={styles.Heading} data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" > Testimonials </h2>
-                <h4 className={styles.subHeading} data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500" > People that I have worked with have said </h4>
+                <h2 className={styles.Heading} data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-duration="1500" > Testimonials </h2>
+                <h4 className={styles.subHeading} data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-duration="1500" > People that I have worked with have said </h4>
 
                 <Carousel   className={styles.Carousal}>
 

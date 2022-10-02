@@ -18,8 +18,8 @@ export default function Skills() {
     return (
         <div   className={styles.main}>
             <div className={styles.line_break}></div>
-            <div data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-duration="1500"   className={styles.heading}> My Skills</div>
-            <p  data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500"   className={styles.headingText}>I like to take responsibility to craft good user experiences using my skills</p>
+            <div data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-duration="1500"   className={styles.heading}> My Skills</div>
+            <p  data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-duration="1500"   className={styles.headingText}>I like to take responsibility to craft good user experiences using my skills</p>
 
             <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500"  className={styles.logoSection}>
                 <h4 className={styles.stacks}>Frontend Development</h4>

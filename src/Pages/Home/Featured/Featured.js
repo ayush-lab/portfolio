@@ -23,7 +23,7 @@ export default function Featured() {
 
          {/* <div className={styles.lineBreak}></div> */}
 
-         <h3 data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-duration="1500">Explorations</h3>
+         <h3 data-aos="slide-right" data-aos-anchor-placement="top-center" data-aos-duration="1500">Explorations</h3>
 
          <div className={styles.projects}>
                <Card name={"Saheli"} image={Saheli} alt="pro" position="Lead react developer" />

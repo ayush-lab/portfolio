@@ -16,7 +16,7 @@ export default function Experience() {
      <div className={styles.Featured}>
 
 
-         <h3 data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-duration="1500" >Experiences</h3>
+         <h3 data-aos="fade-down" data-aos-anchor-placement="top-center" data-aos-duration="1500" >Experiences</h3>
 
          <div className={styles.projects}>
                <Card name={"Saheli"} image={Card1} alt="pro" position="Lead react developer" />
