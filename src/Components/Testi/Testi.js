@@ -16,7 +16,7 @@ export default function TestiProfile(props) {
     
     return (
         <>
-            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" className={styles.CarousalSlide}>
+            <div  className={styles.CarousalSlide}>
 
                 <a href={props.link} target="_blank" rel="noopener noreferrer">
                     <div className={styles.imageIcon}>
