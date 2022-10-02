@@ -90,6 +90,7 @@
 .CardHover:hover{
     opacity: 0.7;
     transition: all 0.2s;
+    user-select: none;
 }
 
 
