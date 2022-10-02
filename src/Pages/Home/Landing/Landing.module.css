@@ -1,6 +1,5 @@
 .hero{
     background:#272727;
-    height:100vh;
 }
 .main {
     font-family: 'Cormorant';
@@ -10,6 +9,8 @@
     padding-right:10%;
     /* background-color: #111827; */
     height: 100vh;
+    height:calc(100vh - 75px);
+
     color: white;
     display: flex;
     /* flex-direction: column; */
@@ -24,7 +25,7 @@
     flex-direction: column;
     justify-content: flex-end;
     font-weight:200;
-    padding-bottom:5%;
+    /* padding-bottom:5%; */
     /* color:#141C3A; */
     color:white;
 }
@@ -50,7 +51,7 @@
 
 .mainRight{
     width:50%;
-    padding-bottom:5%;
+    /* padding-bottom:5%; */
     height: inherit;
     display: flex;
     justify-content: flex-end;
@@ -75,7 +76,6 @@
     font-weight: 200;
     font-size:16px;
     margin-left:0px;
-    /* border-bottom:1px solid white; */
 }
 
 
@@ -89,11 +89,8 @@
     .main {
         padding-left:10%;
         padding-right:10%;
-        /* background-color: #111827; */
-        height: 100vh;
         color: white;
         display: flex;
-        /* flex-direction: column; */
         justify-content: space-between;
         align-items: center;
     }
@@ -122,7 +119,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-bottom:70px;
     }
     .mainLeft{
         width: 70%;

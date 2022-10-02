@@ -52,7 +52,7 @@ function Landing() {
         </div>
       </div>
 
-      <div className="line_break"> </div>
+      {/* <div className="line_break"> </div> */}
     </div>
   );
 }
