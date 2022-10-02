@@ -34,7 +34,7 @@ export default function Project() {
 
          <div className={styles.Project}>
 
-            <ProjectTem title="SHELP" smallDesc="lead react developer"
+            <ProjectTem title="SHELP" smallDesc="MERN project"
                longDesc="Worked as a lead react developer to develop Bytepad used by 1000+
 college students to access 3000+ question papers.
 Implemented filtering and Searching using Redux
