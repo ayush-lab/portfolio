@@ -32,8 +32,10 @@ function Landing() {
           <p>
             As a <b>developer</b>, my superpower happens behind the scenes to
             make a digital product look great, work fast and perform well with a
-            seamless user experience
-            <span className={styles.resumeBtn}>
+            seamless user experience.&nbsp;&nbsp;
+            
+          </p>
+          <span className={styles.resumeBtn}>
               <a
                 style={{ textDecoration: "none", color: "white" }}
                 href="https://drive.google.com/file/d/1BGfY-raqmC1hBYT2eM7Fb9HhyirKNelw/view"
@@ -41,13 +43,12 @@ function Landing() {
                 rel="noopener noreferrer"
               >
                
-                <Button style={{ background: "inherit", color: "white" }}>
+                <Button style={{ background: "inherit", color: "white", font:"inherit" }}>
 
                   RESUME <ArrowUpOutlined className={styles.arrow} />
                 </Button>
               </a>
             </span>
-          </p>
         </div>
       </div>
 
