@@ -12,7 +12,7 @@ export default function Card(props) {
   }, []);
 
   return (
-    <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" className={styles.Card}>
+    <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-once="true" className={styles.Card}>
 
       <div className={styles.image}>
       <div className={styles.CardHover}>

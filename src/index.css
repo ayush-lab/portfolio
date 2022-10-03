@@ -170,10 +170,18 @@ body::-webkit-scrollbar-thumb
   }
 }
 
-/* .line_break{
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #272727;
+  
+}
+
+.line_break{
   width: 80%;
-  margin-left:10%;
-  margin-right:10%;
   height:1px;
   background-color:white;
-} */
+} 
+

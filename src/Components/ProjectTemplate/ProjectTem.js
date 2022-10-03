@@ -13,9 +13,10 @@ export default function ProjectTem(props) {
       }, []);
   
     return (
-        <div  data-aos="fade-up" data-aos-anchor-placement="top-center"  data-aos-duration="1500" className={styles.main}>
+        <div  data-aos="fade-up" data-aos-anchor-placement="top-center"  data-aos-duration="1500" data-aos-once="true" className={styles.main}>
             <div className={styles.Left}>
                 <h4 className={styles.Heading}>{props.title}</h4>
+                
                 <span className={styles.subHeading}>{props.smallDesc}</span>
                 <p className={styles.Desc}>{props.longDesc}</p>
                 <div className={styles.tags}>

@@ -16,42 +16,49 @@ export default function Experience() {
   }, []);
 
   return (
-    <div className={styles.Featured}>
-      <h3
-        data-aos="fade-up"
-        data-aos-anchor-placement="top-center"
-        data-aos-duration="1500"
-      >
-        Experiences
-      </h3>
+    <>
+      <div className={styles.Featured}>
+        <h3
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-duration="1500"
+          data-aos-once="true"
+        >
+          Experiences
+        </h3>
 
-      <div className={styles.projects}>
-        <Card
-          name={"Saheli"}
-          image={Repairo}
-          alt="pro"
-          position="Lead react developer"
-        />
+        <div className={styles.projects}>
+          <Card
+            name={"Saheli"}
+            image={Repairo}
+            alt="pro"
+            position="Lead react developer"
+          />
 
-        <Card
-          name={"Saheli"}
-          image={SI}
-          alt="pro"
-          position="Lead react developer"
-        />
-        <Card
-          name={"Saheli"}
-          image={AICTE}
-          alt="pro"
-          position="Lead react developer"
-        />
-        <Card
-          name={"Saheli"}
-          image={Answer}
-          alt="pro"
-          position="Lead react developer"
-        />
+          <Card
+            name={"Saheli"}
+            image={SI}
+            alt="pro"
+            position="Lead react developer"
+          />
+          <Card
+            name={"Saheli"}
+            image={AICTE}
+            alt="pro"
+            position="Lead react developer"
+          />
+          <Card
+            name={"Saheli"}
+            image={Answer}
+            alt="pro"
+            position="Lead react developer"
+          />
+        </div>
       </div>
-    </div>
+
+      <div class="line">
+        <div class="line_break"> </div>
+      </div>
+    </>
   );
 }
