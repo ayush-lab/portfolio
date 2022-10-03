@@ -11,13 +11,13 @@ import "aos/dist/aos.css";
 import { ArrowUpOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 
-function Landing() {
+function Landing({Landing_ref}) {
   React.useEffect(() => {
     Aos.init({ duration: 600 });
   }, []);
 
   return (
-    <div className={styles.hero}>
+    <div ref={Landing_ref} className={styles.hero}>
       <div className={styles.main}>
         <div
           data-aos="fade-up"

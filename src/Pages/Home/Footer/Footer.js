@@ -7,19 +7,20 @@ import Codeforces from "../../../Assets/Images/codeforces.png";
 import Codechef from "../../../Assets/Images/codechef.png";
 import Gfg from "../../../Assets/Images/gfg.png";
 import Leet from "../../../Assets/Images/leetcode.png";
-
+import {ArrowUpOutlined } from '@ant-design/icons'
 import { Button } from "antd";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { propTypes } from "react-animated-cursor";
 
-export default function Footer({Profile_ref}) {
+export default function Footer(props) {
   React.useEffect(() => {
     Aos.init({ duration: 600 });
   }, []);
 
   return (
     <>
-      <div ref={Profile_ref} className={styles.footer}>
+      <div ref={props.Profile_ref} className={styles.footer}>
         <div className={styles.footerSection}>
           <h4 className={styles.heading}>Visit my profiles! </h4>
 
@@ -102,6 +103,11 @@ export default function Footer({Profile_ref}) {
               <a href="mailto:ayush1911052@akgec.ac.in">Mail me</a>
             </Button>
           </div>
+
+          <div onClick={props.onClickLanding}  className={styles.GotoTop}>
+              <ArrowUpOutlined style={{color:"white"}} />
+          </div>
+
         </div>
         <div className={styles.name}>
           <span>Designed and Developed by Ayush with love ❤️</span>

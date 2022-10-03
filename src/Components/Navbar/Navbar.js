@@ -30,11 +30,11 @@ export default function Navbar(props) {
     <div>
       <div className={styles.Nav}>
         <div className={styles.Navbar}>
-          <NavLink to="/">
-            <div className={styles.NavbarLogo}>
+          <span  >
+            <div  onClick={props.onClickLanding} className={styles.NavbarLogo}>
               <img src={logo} alt="Ayush_logo" />
             </div>
-          </NavLink>
+          </span>
 
           <div className={styles.NavbarToggler}>
             <MenuOutlined

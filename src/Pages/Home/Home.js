@@ -10,11 +10,16 @@ import Experience from "./Experience/Experience";
 import Footer from "./Footer/Footer";
 
 function Home() {
+  let Landing_ref = useRef(null);
   let Project_ref = useRef(null);
   let Exploration_ref = useRef(null);
   let Skills_ref = useRef(null);
   let Experience_ref = useRef(null);
   let Profile_ref = useRef(null);
+
+  const ScrollToLanding = () => {
+   Landing_ref.current.scrollIntoView({ behavior: "smooth" });
+ };
 
   const ScrollToProject = () => {
     Project_ref.current.scrollIntoView({ behavior: "smooth" });
@@ -40,14 +45,16 @@ function Home() {
         onClickSkills={ScrollToSkills}
         onClickExperience={ScrollToExperience}
         onClickProfile={ScrollToProfile}
+        onClickLanding={ScrollToLanding}
+
       />
-      <Landing />
+      <Landing Landing_ref={Landing_ref}/>
       <Project Project_ref={Project_ref} />
       <Featured  Exploration_ref={ Exploration_ref}/>
       <Skills Skills_ref={Skills_ref}/>
       <Experience Experience_ref={Experience_ref}/>
       <Testi />
-      <Footer Profile_ref={Profile_ref}/>
+      <Footer onClickLanding={ScrollToLanding} Profile_ref={Profile_ref}/>
     </>
   );
 }
