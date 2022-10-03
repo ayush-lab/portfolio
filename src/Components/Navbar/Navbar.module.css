@@ -15,7 +15,6 @@
     padding-left: 10%;
     padding-right: 10%;
     align-items: center;
-    /* margin-top:54px; */
 }
 
 .NavbarLink {
@@ -29,6 +28,9 @@
     font-weight: 200;
     font-size: 16px;
 }
+.NavbarLink span:hover{
+    color:white;
+} 
 
 .Navbar span:nth-child(1) {
     padding-left: 0;
