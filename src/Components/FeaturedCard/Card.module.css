@@ -66,6 +66,7 @@
 
 .text p {
     font-family: "Cormorant";
+    font-size:16px;
 }
 
 .CardHover{
@@ -132,7 +133,7 @@
         justify-content: space-between;
         padding-top: 12px;
     }
-    
+  
     .text h4 {
         font-weight: 400;
         font-size: 18px;
@@ -182,7 +183,7 @@
         font-weight: 400;
         font-size: 16px;
     }
-    
+  
 }
 
 @media only screen and (max-width: 700px) {
@@ -226,6 +227,9 @@
     .text h4 {
         font-weight: 400;
         font-size: 16px;
+    }
+    .text p{
+        font-size:12px;
     }
     
 }

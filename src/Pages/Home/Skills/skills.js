@@ -63,12 +63,12 @@ export default function Skills({Skills_ref}) {
         >
           <h4 className={styles.stacks}>Frontend Development</h4>
           <div className={styles.logoImages}>
-            <img src={Javascript} alt="frontend" />
-            <img src={ReactLogo} alt="frontend" />
-            <img src={Redux} alt="frontend" />
-            <img src={Html} alt="frontend" />
-            <img src={Css} alt="frontend" />
-            <img src={Figma} alt="frontend" />
+            <img src={Javascript} alt="frontend" title="JavaScript"/>
+            <img src={ReactLogo} alt="frontend" title="React"/>
+            <img src={Redux} alt="frontend" title="Redux"/>
+            <img src={Html} alt="frontend"  title="HTML"/>
+            <img src={Css} alt="frontend" title="CSS"/>
+            <img src={Figma} alt="frontend" title="Figma" />
           </div>
         </div>
 
@@ -81,11 +81,11 @@ export default function Skills({Skills_ref}) {
         >
           <h4 className={styles.stacks}>Backend Development</h4>
           <div className={styles.logoImages}>
-            <img src={Node} alt="backend techs" />
-            <img src={Express} alt="backend techs" />
-            <img src={Postman} alt="backend techs" />
-            <img src={Docker} alt="backend techs" />
-            <img src={Jest} alt="Other skills techs" />
+            <img src={Node} alt="backend techs" title="Node" />
+            <img src={Express} alt="backend techs" title="Express"/>
+            <img src={Postman} alt="backend techs" title="Postman"/>
+            <img src={Docker} alt="backend techs" title="Docker"/>
+            <img src={Jest} alt="Other skills techs"title="Jest" />
           </div>
         </div>
 
@@ -98,8 +98,8 @@ export default function Skills({Skills_ref}) {
         >
           <h4 className={styles.stacks}>Databases</h4>
           <div className={styles.logoImages}>
-            <img src={Mongo} alt="backend techs" />
-            <img src={Redis} alt="frontend" />
+            <img src={Mongo} alt="backend techs" title="Mongo Db"/>
+            <img src={Redis} alt="Redis logo " title="Redis"/>
           </div>
         </div>
 
@@ -112,10 +112,10 @@ export default function Skills({Skills_ref}) {
         >
           <h4 className={styles.stacks}>Other skills</h4>
           <div className={styles.logoImages}>
-            <img src={Cpp} alt="Other skills techs" />
-            <img src={Javascript} alt="language" />
-            <img src={SQL} alt="language" />
-            <img src={Git} alt="git logo" />
+            <img src={Cpp} alt="Other skills techs" title="C++" />
+            <img src={Javascript} alt="language" title="JavaScript"/>
+            <img src={SQL} alt="language" title="SQL" />
+            <img src={Git} alt="git logo" title="Git" />
 
           </div>
         </div>

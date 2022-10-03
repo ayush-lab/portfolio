@@ -100,7 +100,7 @@ export default function Footer(props) {
 
           <div className={styles.mailBtn}>
             <Button primary>
-              <a href="mailto:ayush1911052@akgec.ac.in">Mail me</a>
+              <a href="mailto:ayush1911052@akgec.ac.in">Mail Ayush</a>
             </Button>
           </div>
 

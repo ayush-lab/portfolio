@@ -67,7 +67,7 @@ export default function Experience({Experience_ref}) {
             link="https://github.com/hrik2001/answer"
           />
           <Card
-            name={"Saheli"}
+            name={"Answer bot"}
             image={Answer}
             alt="pro"
             type="ex"

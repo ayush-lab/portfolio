@@ -187,7 +187,7 @@ body::-webkit-scrollbar-thumb
 
 
 .ant-btn:focus, .ant-btn:hover {
-  /* color: red !important; */
+  /* color: white; */
   border-color: red !important;
   /* background: #fff !important; */
 }

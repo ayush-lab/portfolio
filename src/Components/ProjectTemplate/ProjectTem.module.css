@@ -26,12 +26,12 @@
 .subHeading{
     margin-bottom:40px;
     font-family: "Cormorant";
-    font-size:18px;
+    font-size:20px;
     text-transform: capitalize;
 }
 .Desc{
     font-family: "Cormorant";
-    font-size:18px;   
+    font-size:20px;   
 }
 .tags{
     display:flex;
