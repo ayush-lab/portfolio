@@ -9,14 +9,14 @@ import Gollaa from "../../../Assets/Images/golaa.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-export default function Featured() {
+export default function Featured({Exploration_ref}) {
   React.useEffect(() => {
     Aos.init({ duration: 600 });
   }, []);
 
   return (
     <>
-      <div className={styles.Featured}>
+      <div ref={Exploration_ref} className={styles.Featured}>
         {/* <div className={styles.lineBreak}></div> */}
 
         <h3

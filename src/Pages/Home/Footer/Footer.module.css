@@ -2,6 +2,9 @@
   /* background-color: rgb(8, 98, 172); */
   background-color: #272727;
   height: 100vh;
+  padding-left:10%;
+  padding-right:10%;
+  
   /* padding-top:2%; */
   /* padding-bottom:2%; */
 }
@@ -24,11 +27,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-
 }
-.logo img{
-  width:50px;
-  height:50px;
+.logo img {
+  width: 50px;
+  height: 50px;
 }
 .name {
   height: 10%;
@@ -36,69 +38,63 @@
   justify-content: center;
   align-items: center;
   color: white;
-  border-top:1px solid white;
+  border-top: 1px solid white;
   /* background-color: orange; */
   font-family: "Arimo";
   font-size: 16px;
 }
 
-.mailBtn{
-    padding-top:24px;
+.mailBtn {
+  padding-top: 24px;
 }
-
-
 
 @media only screen and (max-width: 700px) {
-    .footer {
-        background-color: #272727;
-      }
-      
-      .footerSection {
-        height: 90%;
-      }
-      .heading {
-        font-size: 24px;
-        padding-bottom: 12px;
-        font-family: "Arimo";
-      }
-      
-      .Links {
-        gap: 12px;
-      }
-      
-      .name {
-        height: 10%;
-        font-size: 16px;
-      }
-      
-      .mailBtn{
-          padding-top:24px;
-      }
-      
+  .footer {
+    background-color: #272727;
+  }
+
+  .footerSection {
+    height: 90%;
+  }
+  .heading {
+    font-size: 24px;
+    padding-bottom: 12px;
+    font-family: "Arimo";
+  }
+
+  .Links {
+    gap: 12px;
+  }
+
+  .name {
+    height: 10%;
+    font-size: 16px;
+  }
+
+  .mailBtn {
+    padding-top: 24px;
+  }
 }
 
-
 @media only screen and (max-width: 500px) {
-    
-      .footerSection {
-        height: 90%;
-      }
-      .heading {
-        font-size: 16px;
-        padding-bottom: 12px;
-      }
-      
-      .Links {
-        gap: 12px;
-      }
-      
-      .name {
-        height: 10%;
-        font-size: 12px;
-      }
-      
-      .mailBtn{
-          padding-top:24px;
-      }
-      
+  .footerSection {
+    height: 90%;
+  }
+  .heading {
+    font-size: 16px;
+    padding-bottom: 12px;
+  }
+
+  .Links {
+    gap: 12px;
+  }
+
+  .name {
+    height: 10%;
+    font-size: 12px;
+  }
+
+  .mailBtn {
+    padding-top: 24px;
+  }
 }

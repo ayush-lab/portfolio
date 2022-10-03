@@ -7,14 +7,14 @@ import ProjectTem from "../../../Components/ProjectTemplate/ProjectTem";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-export default function Project() {
+export default function Project({Project_ref}) {
   useEffect(() => {
     Aos.init({ duration: 600 });
   }, []);
 
   return (
     <>
-      <div className={styles.ProjectSection}>
+      <div ref={Project_ref} className={styles.ProjectSection}>
         <div className={styles.Project}>
           <ProjectTem
             title="Bytepad"

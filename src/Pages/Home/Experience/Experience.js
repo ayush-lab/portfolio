@@ -10,14 +10,14 @@ import Gollaa from "../../../Assets/Images/gollaaEx.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-export default function Experience() {
+export default function Experience({Experience_ref}) {
   React.useEffect(() => {
     Aos.init({ duration: 600 });
   }, []);
 
   return (
     <>
-      <div className={styles.Featured}>
+      <div ref={Experience_ref} className={styles.Featured}>
         <h3
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"

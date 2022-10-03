@@ -24,14 +24,14 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import styles from "./skills.module.css";
 
-export default function Skills() {
+export default function Skills({Skills_ref}) {
   React.useEffect(() => {
     Aos.init({ duration: 600 });
   }, []);
 
   return (
     <>
-      <div className={styles.main}>
+      <div ref={Skills_ref} className={styles.main}>
         {/* <div className={styles.line_break}></div> */}
         <div
           data-aos="fade-up"

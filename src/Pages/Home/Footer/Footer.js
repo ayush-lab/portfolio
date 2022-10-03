@@ -12,14 +12,14 @@ import { Button } from "antd";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-export default function Footer() {
+export default function Footer({Profile_ref}) {
   React.useEffect(() => {
     Aos.init({ duration: 600 });
   }, []);
 
   return (
     <>
-      <div className={styles.footer}>
+      <div ref={Profile_ref} className={styles.footer}>
         <div className={styles.footerSection}>
           <h4 className={styles.heading}>Visit my profiles! </h4>
 
@@ -44,15 +44,7 @@ export default function Footer() {
               </a>
             </div>
 
-            <div className={styles.logo}>
-              <a
-                href="https://www.instagram.com/ayuush_verma_/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={Instagram} alt="insta" />
-              </a>
-            </div>
+          
 
             <div className={styles.logo}>
               <a
@@ -93,6 +85,16 @@ export default function Footer() {
                 <img src={Gfg} alt="GFG logo" />
               </a>
             </div>
+            <div className={styles.logo}>
+              <a
+                href="https://www.instagram.com/ayuush_verma_/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={Instagram} alt="insta" />
+              </a>
+            </div>
+            
           </div>
 
           <div className={styles.mailBtn}>

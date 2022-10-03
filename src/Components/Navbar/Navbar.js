@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 import logo from "../../Assets/Images/logo.png";
-import { MenuOutlined } from '@ant-design/icons';
+import { MenuOutlined } from "@ant-design/icons";
 
-
-export default function Navbar() {
+export default function Navbar(props) {
   const [userLoggedIn, setUserLoggedIn] = useState(false);
   const [open, setOpen] = React.useState(false);
 
   React.useEffect(() => {
-    
     let handler = (event) => {
-      if (!navNode.current.contains(event.target) && !toggler.current.contains(event.target)) {
+      if (
+        !navNode.current.contains(event.target) &&
+        !toggler.current.contains(event.target)
+      ) {
         setOpen(false);
       }
     };
@@ -27,11 +28,8 @@ export default function Navbar() {
 
   return (
     <div>
-
       <div className={styles.Nav}>
-
         <div className={styles.Navbar}>
-
           <NavLink to="/">
             <div className={styles.NavbarLogo}>
               <img src={logo} alt="Ayush_logo" />
@@ -39,37 +37,59 @@ export default function Navbar() {
           </NavLink>
 
           <div className={styles.NavbarToggler}>
-            <MenuOutlined style={{color:"white"}} ref={toggler} onClick={() => setOpen(prevState => !prevState)} />
+            <MenuOutlined
+              style={{ color: "white" }}
+              ref={toggler}
+              onClick={() => setOpen((prevState) => !prevState)}
+            />
 
-            <div ref={navNode} className={open ? styles.NavbarTogglerMenu : styles.none}>
+            <div
+              ref={navNode}
+              className={open ? styles.NavbarTogglerMenu : styles.none}
+            >
               <div className={styles.TogglerLinks}>
-
-
-
-                <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Projects</li></NavLink>
-                <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Skills</li></NavLink>
-                <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Experience</li></NavLink>
-                <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Testimonials</li></NavLink>
-                <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >About</li></NavLink>
-                <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Profiles</li></NavLink>
-
+                <span
+                  onClick={props.onClickProject}
+                  className={styles.TogglerLink}
+                >
+                  <li>Projects</li>
+                </span>
+                <span
+                  onClick={props.onClickExploration}
+                  className={styles.TogglerLink}
+                >
+                  <li>Exploration</li>
+                </span>
+                <span
+                  onClick={props.onClickSkills}
+                  className={styles.TogglerLink}
+                >
+                  <li>Skills</li>
+                </span>
+                <span
+                  onClick={props.onClickExperience}
+                  className={styles.TogglerLink}
+                >
+                  <li>Experiences</li>
+                </span>
+                <span
+                  onClick={props.onClickProfile}
+                  className={styles.TogglerLink}
+                >
+                  <li>Profiles</li>
+                </span>
               </div>
-
             </div>
-
-
           </div>
 
           <div className={styles.NavbarLink}>
-            <span>About</span>
-            <span>Projects</span>
-            <span>Experiences</span>
-            <span>Testimonials</span>
-            <span>Profiles</span>
-
+            <span onClick={props.onClickProject}>Projects</span>
+            <span onClick={props.onClickExploration}>Exploration</span>
+            <span onClick={props.onClickSkills}>Skills</span>
+            <span onClick={props.onClickExperience}>Experiences</span>
+            {/* <span>Testimonials</span> */}
+            <span onClick={props.onClickProfile}>Profiles</span>
           </div>
-      
-
         </div>
       </div>
     </div>
