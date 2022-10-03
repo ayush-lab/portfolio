@@ -79,7 +79,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-left:12px;
+    padding:12px;
+
 }
 
 .CardHoverText{

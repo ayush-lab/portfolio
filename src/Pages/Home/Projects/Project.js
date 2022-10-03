@@ -1,11 +1,17 @@
-import { React, useEffect } from "react";
+import { useEffect } from "react";
 import styles from "./Project.module.css";
 import Bytepad from "../../../Assets/Images/Bytepad.png";
 import Coursera from "../../../Assets/Images/Coursera.png";
 import Repairo from "../../../Assets/Images/Repairo.png";
 import ProjectTem from "../../../Components/ProjectTemplate/ProjectTem";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Project() {
+  useEffect(() => {
+    Aos.init({ duration: 600 });
+  }, []);
+
   return (
     <>
       <div className={styles.ProjectSection}>
@@ -61,7 +67,15 @@ export default function Project() {
         </div>
       </div>
       <div class="line">
-        <div class="line_break"> </div>
+        <div
+          data-aos="zoom-out"
+          data-aos-anchor-placement="top-center"
+          data-aos-duration="1500"
+          data-aos-once="true"
+          class="line_break"
+        >
+          {" "}
+        </div>
       </div>
     </>
   );

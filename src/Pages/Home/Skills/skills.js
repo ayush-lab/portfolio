@@ -17,7 +17,8 @@ import Postman from "../../../Assets/Images/postman.png";
 import Mongo from "../../../Assets/Images/mongo.png";
 
 import Cpp from "../../../Assets/Images/cpp.png";
-import Sass from "../../../Assets/Images/sass.png";
+// import Sass from "../../../Assets/Images/sass.png";
+import Git from "../../../Assets/Images/git.png";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -109,17 +110,27 @@ export default function Skills() {
           data-aos-once="true"
           className={styles.logoSection}
         >
-          <h4 className={styles.stacks}>Languages</h4>
+          <h4 className={styles.stacks}>Other skills</h4>
           <div className={styles.logoImages}>
             <img src={Cpp} alt="Other skills techs" />
             <img src={Javascript} alt="language" />
             <img src={SQL} alt="language" />
+            <img src={Git} alt="git logo" />
+
           </div>
         </div>
       </div>
 
       <div class="line">
-        <div class="line_break"> </div>
+        <div
+          data-aos="zoom-out"
+          data-aos-anchor-placement="top-center"
+          data-aos-duration="1500"
+          data-aos-once="true"
+          class="line_break"
+        >
+          {" "}
+        </div>
       </div>
     </>
   );

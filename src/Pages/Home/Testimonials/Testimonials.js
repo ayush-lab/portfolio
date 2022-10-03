@@ -3,7 +3,6 @@ import styles from "./Testimonials.module.css";
 import MadhurSir from "../../../Assets/Images/madhursir.jpg";
 import ArnavSir from "../../../Assets/Images/arnavsir.jpg";
 import TestiProfile from "../../../Components/Testi/Testi";
-
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Carousel } from "antd";
@@ -75,7 +74,15 @@ function Testi() {
       </div>
 
       <div class="line">
-        <div class="line_break"> </div>
+        <div
+          data-aos="zoom-out"
+          data-aos-anchor-placement="top-center"
+          data-aos-duration="1500"
+          data-aos-once="true"
+          class="line_break"
+        >
+          {" "}
+        </div>
       </div>
     </>
   );

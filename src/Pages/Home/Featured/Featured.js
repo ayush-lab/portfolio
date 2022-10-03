@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "../../../Components/FeaturedCard/Card";
 import styles from "./Featured.module.css";
-import Card1 from "../../../Assets/Images/dev.gif";
 import Saheli from "../../../Assets/Images/saheli.png";
 import Birdminton from "../../../Assets/Images/birdminton.png";
 
@@ -67,7 +66,15 @@ export default function Featured() {
         </div>
       </div>
       <div class="line">
-        <div class="line_break"> </div>
+        <div
+          data-aos="zoom-out"
+          data-aos-anchor-placement="top-center"
+          data-aos-duration="1500"
+          data-aos-once="true"
+          class="line_break"
+        >
+          {" "}
+        </div>
       </div>
     </>
   );

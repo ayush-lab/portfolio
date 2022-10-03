@@ -51,6 +51,7 @@ export default function Navbar() {
                 <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Experience</li></NavLink>
                 <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Testimonials</li></NavLink>
                 <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >About</li></NavLink>
+                <NavLink style={{ textDecoration: "none" }} activeClassName="activeClassName" className={styles.TogglerLink} to="/"><li >Profiles</li></NavLink>
 
               </div>
 
@@ -64,6 +65,7 @@ export default function Navbar() {
             <span>Projects</span>
             <span>Experiences</span>
             <span>Testimonials</span>
+            <span>Profiles</span>
 
           </div>
       
