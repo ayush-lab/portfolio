@@ -44,7 +44,7 @@ export default function Experience({Experience_ref}) {
             image={Repairo}
             link="https://www.repairoindia.com/"
             alt="Repairo logo"
-            desc="Worked as a Full stack developer to develop UI components and make Rest API's. Implemented various functionalities as well as managed states using context API"
+            desc="Worked as a Full stack Intern to develop UI components and make Rest API's. Implemented various functionalities as well as managed states using context API"
             position="May 2022 - Aug 2022"
           />
 
