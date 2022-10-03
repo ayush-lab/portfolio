@@ -18,7 +18,7 @@ export default function Footer() {
     <>
       <div className={styles.footer}>
         <div className={styles.footerSection}>
-          <h4 className={styles.heading} data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500"  >Visit my profiles! </h4>
+          <h4 className={styles.heading}   >Visit my profiles! </h4>
 
           <div  className={styles.Links}>
             <div>
@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.name}>
-          <span>Designed by Srishti and Developed by Ayush❤️❤️</span>
+          <span>Designed and Developed by Ayush with love ❤️</span>
         </div>
       </div>
     </>

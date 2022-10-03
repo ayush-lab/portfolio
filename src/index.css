@@ -185,3 +185,9 @@ body::-webkit-scrollbar-thumb
   background-color:white;
 } 
 
+
+.ant-btn:focus, .ant-btn:hover {
+  /* color: red !important; */
+  border-color: red !important;
+  /* background: #fff !important; */
+}

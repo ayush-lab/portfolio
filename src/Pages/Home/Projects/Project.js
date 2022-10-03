@@ -15,13 +15,14 @@ export default function Project() {
             smallDesc="lead react developer"
             longDesc="Worked as a lead react developer to develop Bytepad used by 1000+
          college students to access 3000+ question papers.
-         Implemented filtering and Searching using Redux
-         Accomplished 65% in user base with 80% userretention rate.
+         Implemented filtering and Searching using Redux,
+         Accomplished 65% in user base with 80% user retention rate.
          Dedicated admin-panel, to manage entire docs collection (Lazy
          Loading)"
             skill1="react"
-            skill2="react"
-            skill3="react"
+            skill2="redux"
+            skill3="Spring"
+            link="https://bytepad.silive.in/"
             image={Bytepad}
           />
         </div>
@@ -29,16 +30,18 @@ export default function Project() {
         <div className={styles.Project}>
           <ProjectTem
             title="SHELP"
-            smallDesc="MERN project"
-            longDesc="Worked as a lead react developer to develop Bytepad used by 1000+
-                  college students to access 3000+ question papers.
-                  Implemented filtering and Searching using Redux
-                  Accomplished 65% in user base with 80% userretention rate.
-                  Dedicated admin-panel, to manage entire docs collection (Lazy
-                  Loading)"
-            skill1="react"
-            skill2="react"
-            skill3="react"
+            smallDesc="An e-learning platform to enhance education and
+            management delivery."
+            longDesc="Implemented JWT and Google SSO O-Auth2 authentication,
+            Sockets for real time communication, optimised using
+            Redis. Tested express endpoints using Jest. User and teacher panels to upload,categorise,search,rate,chat,track
+            progress, bookmark,course payment and more."
+            skill1="MERN"
+            skill2="Redis"
+            skill3="Redux"
+            skill4="Sockets"
+            skill5="docker"
+            link="https://github.com/ayush-lab/Coursera-Clone"
             image={Coursera}
           />
         </div>
@@ -46,22 +49,19 @@ export default function Project() {
         <div className={styles.Project}>
           <ProjectTem
             title="Repairo"
-            smallDesc="lead react developer"
-            longDesc="Worked as a lead react developer to develop Bytepad used by 1000+
-               college students to access 3000+ question papers.
-               Implemented filtering and Searching using Redux
-               Accomplished 65% in user base with 80% userretention rate.
-               Dedicated admin-panel, to manage entire docs collection (Lazy
-               Loading)"
-            skill1="react"
-            skill2="react"
-            skill3="react"
+            smallDesc=" Electronics repairing company, helping customers with cost effective and quality services "
+            longDesc="Single-handedly revamped the entire frontend of website from scratch. Developed Reusable components 
+            and used Context API for state management.Developed REST-APIS and integrated Twilio API for SMS automation"
+            skill1="MERN"
+            skill2="CSS"
+            skill3="REST API"
             image={Repairo}
+            link="https://www.repairoindia.com/"
           />
         </div>
       </div>
       <div class="line">
-          <div class="line_break"> </div>
+        <div class="line_break"> </div>
       </div>
     </>
   );

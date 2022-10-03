@@ -29,29 +29,42 @@ export default function Experience() {
 
         <div className={styles.projects}>
           <Card
-            name={"Saheli"}
+            type="ex"
+            name={"Software Incubator"}
+            image={SI}
+            alt="SI logo"
+            link="https://silive.in/"
+            desc="Working with a team of 45 members for cultivating technical activities in the
+            college and maintaining various websites. Organised various workshops and seminars on Competitive Programming,UI/UX and trending technologies"
+            position="Ongoing"
+          />
+          <Card
+            type="ex"
+            name={"Repairo"}
             image={Repairo}
-            alt="pro"
-            position="Lead react developer"
+            link="https://www.repairoindia.com/"
+            alt="Repairo logo"
+            desc="Worked as a Full stack developer to develop UI components and make Rest API's. Implemented various functionalities as well as managed states using context API"
+            position="May 2022 - Aug 2022"
           />
 
           <Card
-            name={"Saheli"}
-            image={SI}
-            alt="pro"
-            position="Lead react developer"
-          />
-          <Card
-            name={"Saheli"}
+            name={"AICTE"}
             image={AICTE}
-            alt="pro"
-            position="Lead react developer"
+            alt="aicte logo"
+            type="ex"
+            desc=" Worked as a React developer to develop a webapp for All India Council of Technical Education.Application is used by faculties of colleges across the nation."
+            position="Sept 2021 Dec 2021"
           />
           <Card
             name={"Saheli"}
             image={Answer}
             alt="pro"
-            position="Lead react developer"
+            type="ex"
+            position="July 2022 - Aug 2022"
+            desc="Worked as an Open source mentee in PSOC 2021, designed and developed Discord bot that answers user’s queries using t5 transformers and also comes packed with moderation tools.
+            Techstack used Quart, discord.py and Jinja templating engine"
+            link="https://github.com/hrik2001/answer"
           />
         </div>
       </div>

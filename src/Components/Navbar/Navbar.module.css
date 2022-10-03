@@ -135,7 +135,8 @@
     .TogglerLink li {
         padding: 16px;
         padding-left: 22px;
-        border-bottom: 1px solid rgba(255, 140, 0, 0.189);
+        border-bottom: 1px solid rgb(248, 57, 57);
+
         color: white;
         text-transform: capitalize;
     }

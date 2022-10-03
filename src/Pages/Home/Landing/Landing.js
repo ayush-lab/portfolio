@@ -38,12 +38,12 @@ function Landing() {
           <span className={styles.resumeBtn}>
               <a
                 style={{ textDecoration: "none", color: "white" }}
-                href="https://drive.google.com/file/d/1BGfY-raqmC1hBYT2eM7Fb9HhyirKNelw/view"
+                href="https://drive.google.com/file/d/15PjMKGcFvT1i9evEMBqCAO0znKeamfbk/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                
-                <Button style={{ background: "inherit", color: "white", font:"inherit" }}>
+                <Button className={styles.Btn} style={{ background: "inherit", color: "white", font:"inherit" }}>
 
                   RESUME <ArrowUpOutlined className={styles.arrow} />
                 </Button>
