@@ -8,6 +8,7 @@ import Project from "./Projects/Project";
 import Featured from "./Featured/Featured";
 import Experience from "./Experience/Experience";
 import Footer from "./Footer/Footer";
+import { scrollIntoView } from "seamless-scroll-polyfill";
 
 function Home() {
   let Landing_ref = useRef(null);
@@ -19,6 +20,7 @@ function Home() {
 
   const ScrollToLanding = () => {
    Landing_ref.current.scrollIntoView({ behavior: "smooth" });
+  
  };
 
   const ScrollToProject = () => {
