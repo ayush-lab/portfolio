@@ -20,7 +20,7 @@ export default function Footer() {
         <div className={styles.footerSection}>
           <h4 className={styles.heading} data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500"  >Visit my profiles! </h4>
 
-          <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500"  className={styles.Links}>
+          <div  className={styles.Links}>
             <div>
               <img src={Github} alt="Github" />
             </div>
@@ -46,10 +46,10 @@ export default function Footer() {
             </div>
           </div>
 
-          <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500"  className={styles.mailBtn}>
+          <div  className={styles.mailBtn}>
             <Button primary >
               <a href="mailto:ayush1911052@akgec.ac.in">
-                Mail me at: <b>ayush1911052@akgec.ac.in</b>
+                Mail me 
               </a>
             </Button>
           </div>
