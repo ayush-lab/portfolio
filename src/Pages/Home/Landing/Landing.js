@@ -38,7 +38,7 @@ function Landing({Landing_ref}) {
           <span className={styles.resumeBtn}>
               <a
                 style={{ textDecoration: "none", color: "white" }}
-                href="https://drive.google.com/file/d/13_pGEoALOaUJ4S05N81LXxlV1-JF4wa8/view?usp=sharing"
+                href="https://drive.google.com/file/d/1DtgtzXz7QwfWu_PZjZ8NKe0g8HiflgQO/view"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -48,6 +48,19 @@ function Landing({Landing_ref}) {
                   RESUME <ArrowUpOutlined className={styles.arrow} />
                 </Button>
               </a>
+              <a
+                style={{ textDecoration: "none", color: "white" }}
+                href="mailto:ayush.verma8750@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+               <Button  className={styles.Btn} style={{ background: "#FFE5AD", color: "black", font:"inherit", marginLeft:"16px" }}>
+                HIRE ME <ArrowUpOutlined className={styles.arrow} />
+                </Button>
+
+              </a>
+              
+
             </span>
         </div>
       </div>

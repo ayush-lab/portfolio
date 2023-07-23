@@ -1,0 +1,55 @@
+.scrollToTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 40px;
+    animation: fadeIn 200ms ease-in-out 1s both;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .fadeAnimate {
+    animation: fadeIn 200ms ease-in-out 1s both;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+  
+  .ArrowUp {
+    padding: 13.2px;
+    cursor: pointer;
+    background: #20242d;
+    box-shadow: 0px 1px 15px rgba(0, 26, 90, 0.1);
+    opacity: 0.85 !important;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* font-size: 12px;
+    width: 65.06px; */
+  }
+  
+  .ArrowUp img{
+    height: 60px;
+    width: 60px;
+  }
+  
+  /* MEDIA QUERIES */
+  @media (max-width: 768px) {
+    .scrollToTop {
+      right: 15px;
+    }
+    .ArrowUp img{
+        height: 40px;
+        width: 40px;
+      }
+  }
+  

@@ -4,7 +4,8 @@
   height: 100vh;
   padding-left:8%;
   padding-right:8%;
-  
+  font-family: "Arimo";
+  text-transform: capitalize;
   /* padding-top:2%; */
   /* padding-bottom:2%; */
 }
@@ -39,24 +40,40 @@
   justify-content: center;
   align-items: center;
   color: white;
-  border-top: 1px solid white;
+  border-top: 1px solid #585b63;
   /* background-color: orange; */
   font-family: "Arimo";
   font-size: 16px;
 }
 
 .mailBtn {
-  padding-top: 24px;
+  padding-top: 32px;
 }
-
-.GotoTop{
-  border:1px solid white;
-  padding:24px;
-  border-radius: 26px;
-  position: absolute;
+.mailBtn_btn{
+    font-family: "Arimo";
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size:16px;
+    margin-left:0px;
+}
+.arrow {
+  transform: rotate(40deg);
+}
+/* .GotoTop{ */
+  /* border:1px solid white; */
+  /* position: absolute;
+  padding:0px;
+  width: 60px;
+  height: 60px;
   bottom:24px;
   right:24px;
-}
+} */
+
+/* .GotoTop img{
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+} */
 
 
 @media only screen and (max-width: 700px) {

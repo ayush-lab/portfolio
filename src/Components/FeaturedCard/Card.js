@@ -34,12 +34,27 @@ export default function Card(props) {
           <p>{props.position}</p>
         </div>
 
-        <div className={styles.link}>
-          <a href={props.link} target="_blank" rel="noopener noreferrer">
-            <span style={{ color: "white" }}> {props.type? "View" : "View Project" }</span>
-          </a>
-          <ArrowUpOutlined className={styles.arrow} />
+        <div className={styles.links}>
+          <div className={styles.link}>
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
+              <span style={{ color: "white" }}> {"View Project" }</span>
+            </a>
+            <ArrowUpOutlined className={styles.arrow} />
+          </div>
+          
+          {props?.sourceCode &&
+            <div className={styles.link}>
+            <a href={props.sourceCode} target="_blank" rel="noopener noreferrer">
+              <span style={{ color: "white" }}> {"Source code" }</span>
+            </a>
+              <ArrowUpOutlined className={styles.arrow} />
+            </div>
+          }
+            
         </div>
+        
+        
+
       </div>
     </div>
   );

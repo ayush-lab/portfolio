@@ -8,6 +8,7 @@ import Project from "./Projects/Project";
 import Featured from "./Featured/Featured";
 import Experience from "./Experience/Experience";
 import Footer from "./Footer/Footer";
+import BackToTop from "../../Components/BackToTop/backToTop";
 
 function Home() {
   let Landing_ref = useRef(null);
@@ -56,6 +57,7 @@ function Home() {
       <Experience Experience_ref={Experience_ref}/>
       <Testi />
       <Footer onClickLanding={ScrollToLanding} Profile_ref={Profile_ref}/>
+      <BackToTop/>
     </>
   );
 }

@@ -16,6 +16,7 @@
     align-self: flex-start;
     text-transform: uppercase;
     font-size: 14px;
+    padding-bottom:12px;
 }
 
 .link span {
@@ -55,6 +56,11 @@
     justify-content: space-between;
     color: white;
     padding-top: 12px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
 }
 
 .text h4 {

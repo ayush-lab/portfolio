@@ -11,7 +11,8 @@ import {ArrowUpOutlined } from '@ant-design/icons'
 import { Button } from "antd";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { propTypes } from "react-animated-cursor";
+import arrowUp from '../../../Assets/Images/arrowup.png'
+// import { propTypes } from "react-animated-cursor";
 
 export default function Footer(props) {
   React.useEffect(() => {
@@ -99,16 +100,22 @@ export default function Footer(props) {
           </div>
 
           <div className={styles.mailBtn}>
-            <Button primary>
-              <a href="mailto:ayush1911052@akgec.ac.in">Mail Ayush</a>
+            <Button className={styles.mailBtn_btn} primary style={{background:'#FFE5AD'}}>
+              <a href="mailto:ayush.verma8750@gmail.com">Hire Ayush <ArrowUpOutlined className={styles.arrow} />
+              </a>
+              
             </Button>
           </div>
 
-          <div onClick={props.onClickLanding}  className={styles.GotoTop}>
-              <ArrowUpOutlined style={{color:"white"}} />
-          </div>
+          
+
+          {/* <div onClick={props.onClickLanding}  className={styles.GotoTop}> */}
+              {/* <ArrowUpOutlined style={{color:"white"}} /> */}
+              {/* <img src={arrowUp} alt="Goto Top" /> */}
+          {/* </div> */}
 
         </div>
+        
         <div className={styles.name}>
           <span>Designed and Developed by Ayush with love ❤️</span>
         </div>

@@ -127,7 +127,7 @@
     .mainLeft p:nth-child(1),
     .mainLeft p:nth-child(2){
         margin-bottom:8px;
-        font-size:16px;
+        font-size:20px;
     }
     
     .resumeBtn{
@@ -135,7 +135,38 @@
         font-family: "Arimo";
         text-transform: capitalize;
         font-weight: 200;
-        font-size:12px;
+        font-size:14px;
     }
     
   }
+
+@media (max-width: 550px) {
+
+    .hero{
+        padding-bottom:48px;
+    }
+
+    .mainLeft p:nth-child(1){
+        margin-bottom:8px;
+        font-size:18px;
+    }
+
+    .mainLeft p:nth-child(2){
+        margin-bottom:8px;
+        font-size:16px;
+    }
+      
+    .resumeBtn{
+        font-size:12px;
+    }
+    
+    .mainLeft{
+        width: 90%;
+    }
+}
+
+@media (max-width: 300px) {
+    .mainLeft{
+        width: 100%;
+    }
+}

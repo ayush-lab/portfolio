@@ -7,7 +7,7 @@ import 'antd/dist/antd.min.css'
 function App() {
   
   return (
-    <>
+    <div class="app">
       <AnimatedCursor
           innerSize={8}
           outerSize={32}
@@ -25,7 +25,7 @@ function App() {
         </Routes>
 
       </BrowserRouter>
-      </>
+      </div>
   );
 }
 

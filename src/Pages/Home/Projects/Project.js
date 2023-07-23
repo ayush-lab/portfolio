@@ -62,7 +62,7 @@ export default function Project({Project_ref}) {
             skill2="CSS"
             skill3="REST API"
             image={Repairo}
-            link="https://www.repairoindia.com/"
+            link="https://repairo-b2d2c.web.app/"
           />
         </div>
       </div>
