@@ -35,7 +35,7 @@ export default function Experience({Experience_ref}) {
             name={"Amazon"}
             image={Amazon}
             alt="SI logo"
-            link="https://www.chalkmates.com/"
+            certificate="https://drive.google.com/file/d/1L03rU-K9zPVEpSU41DgIwz8f2ycVKPkA/view"
             desc="Developed an internal diagnostic tool that significantly optimized fetching of critical data from three services,
             resulting in 20mins time reduction to display results, impacted 50K+ advertisers.
             • Implemented an automated ticket flow system using Tampermonkey, JavaScript, reducing manual work by an

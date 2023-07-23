@@ -8,6 +8,7 @@
   text-transform: capitalize;
   /* padding-top:2%; */
   /* padding-bottom:2%; */
+
 }
 
 .footerSection {
@@ -51,7 +52,7 @@
 }
 .mailBtn_btn{
     font-family: "Arimo";
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: 200;
     font-size:16px;
     margin-left:0px;

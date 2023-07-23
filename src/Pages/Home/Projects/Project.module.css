@@ -13,6 +13,9 @@
     font-family: 'popins';
     font-weight: 250;
 }
+.ProjectSection{
+    border-bottom: 0.1px solid #585b63;
+}
 
 @media only screen and (max-width: 700px) {
     .Project{padding-bottom:32px;}

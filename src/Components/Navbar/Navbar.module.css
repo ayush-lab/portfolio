@@ -104,8 +104,8 @@
     .NavbarTogglerMenu,
     .none {
         position: fixed;
-        right: -90px;
-        top: calc(75px);
+        /* right: -90px; */
+        top: 75px;
         /* width: 100px; */
         /* height: 100px; */
         height: 100vh;
@@ -138,7 +138,7 @@
         padding-left: 22px;
         border-bottom: 1px solid rgba(225, 219, 219, 0.1);
         color: white;
-        text-transform: capitalize;
+        text-transform: uppercase;
     }
 
     .TogglerLink {

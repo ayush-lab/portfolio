@@ -66,17 +66,6 @@ export default function Project({Project_ref}) {
           />
         </div>
       </div>
-      <div class="line">
-        <div
-          data-aos="zoom-out"
-          data-aos-anchor-placement="top-center"
-          data-aos-duration="1500"
-          data-aos-once="true"
-          class="line_break"
-        >
-          {" "}
-        </div>
-      </div>
     </>
   );
 }

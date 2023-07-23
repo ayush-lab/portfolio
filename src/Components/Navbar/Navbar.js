@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { NavLink } from "react-router-dom";
 import logo from "../../Assets/Images/logo.png";
-import { MenuOutlined } from "@ant-design/icons";
+import { MenuOutlined, CloseOutlined} from "@ant-design/icons";
 
 export default function Navbar(props) {
   const [userLoggedIn, setUserLoggedIn] = useState(false);
@@ -27,7 +27,7 @@ export default function Navbar(props) {
   let toggler = React.useRef();
 
   return (
-    <div>
+    <>
       <div className={styles.Nav}>
         <div className={styles.Navbar}>
           <span  >
@@ -37,12 +37,19 @@ export default function Navbar(props) {
           </span>
 
           <div className={styles.NavbarToggler}>
-            <MenuOutlined
-              style={{ color: "white" }}
-              ref={toggler}
-              onClick={() => setOpen((prevState) => !prevState)}
-            />
-
+            {!open ? 
+              <MenuOutlined
+                style={{ color: "white" }}
+                ref={toggler}
+                onClick={() => setOpen((prevState) => !prevState)}
+              />
+              : 
+              <CloseOutlined
+                style={{ color: "white" }}
+                ref={toggler}
+                onClick={() => setOpen((prevState) => !prevState)}
+              />
+            }
             <div
               ref={navNode}
               className={open ? styles.NavbarTogglerMenu : styles.none}
@@ -92,6 +99,6 @@ export default function Navbar(props) {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

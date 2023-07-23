@@ -78,20 +78,9 @@ export default function Featured({Exploration_ref}) {
             building the music player."
             link="https://delicate-cajeta-a5d945.netlify.app/"
             sourceCode="https://github.com/ayush-lab/musicPlayer"
-            position="Side Hustle"
+            position="Side Project"
           />
 
-        </div>
-      </div>
-      <div class="line">
-        <div
-          data-aos="zoom-out"
-          data-aos-anchor-placement="top-center"
-          data-aos-duration="1500"
-          data-aos-once="true"
-          class="line_break"
-        >
-          {" "}
         </div>
       </div>
     </>

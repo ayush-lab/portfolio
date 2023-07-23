@@ -125,6 +125,10 @@ html {
   overflow-x: hidden;
 }
 
+.app{
+  width: 100vw;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -178,20 +182,21 @@ body::-webkit-scrollbar-thumb
   }
 }
 
-.line{
+/* .line{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
+
+  width: 95vw;
   background-color: #272727;
-  
+
 }
 
 .line_break{
   width: 100%;
+  justify-content: center;
+  align-items: center;
   height:0.1px;
   background-color:#585b63;
-} 
+}  */
 
 
 .ant-btn:focus, .ant-btn:hover {

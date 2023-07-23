@@ -107,12 +107,6 @@ export default function Footer(props) {
             </Button>
           </div>
 
-          
-
-          {/* <div onClick={props.onClickLanding}  className={styles.GotoTop}> */}
-              {/* <ArrowUpOutlined style={{color:"white"}} /> */}
-              {/* <img src={arrowUp} alt="Goto Top" /> */}
-          {/* </div> */}
 
         </div>
         

@@ -5,7 +5,7 @@
     align-items: center;
     padding-top: 5%;
     padding-bottom:5%;
-
+    border-bottom: 0.1px solid #585b63;
 }
 .Heading{
     margin-bottom:16px;
@@ -42,7 +42,15 @@
     }
     
     .Carousal{
-        width: calc(80vw);
+        width: 80vw;
         padding:30px;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    .Carousal{
+        width: 90vw;
+        padding:30px;
+    }
+
 }

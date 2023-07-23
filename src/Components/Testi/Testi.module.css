@@ -18,7 +18,7 @@
     margin-top:12px;
     color: white;
     font-family: "Cormorant";
-    font-size:18px;
+    font-size:22px;
 }
 .tags{
     padding-bottom: 20px;
@@ -46,7 +46,7 @@
     
     .textCarousal{
         margin-top:12px;
-        font-size:14px;
+        font-size:18px;
     }
     .tags{
         padding-bottom: 20px;
@@ -61,4 +61,16 @@
     }
     
     
+}
+
+@media only screen and (max-width: 600px) {
+    .textCarousal{
+        font-size:16px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .textCarousal{
+        font-size:14px;
+    }
 }

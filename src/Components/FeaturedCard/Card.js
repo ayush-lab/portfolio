@@ -34,10 +34,11 @@ export default function Card(props) {
           <p>{props.position}</p>
         </div>
 
+
         <div className={styles.links}>
           <div className={styles.link}>
-            <a href={props.link} target="_blank" rel="noopener noreferrer">
-              <span style={{ color: "white" }}> {"View Project" }</span>
+            <a href={props?.link? props?.link : props?.certificate} target="_blank" rel="noopener noreferrer">
+              <span style={{ color: "white" }}> {props.link ? "View Project" : "View Certificate" }</span>
             </a>
             <ArrowUpOutlined className={styles.arrow} />
           </div>
