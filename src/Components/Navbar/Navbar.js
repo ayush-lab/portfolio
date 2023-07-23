@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { NavLink } from "react-router-dom";
-import logo from "../../Assets/Images/logo.png";
+// import logo from "../../Assets/Images/logo.png";
+import logo from '../../Assets/Images/logoo.svg'
 import { MenuOutlined, CloseOutlined} from "@ant-design/icons";
 
 export default function Navbar(props) {

@@ -49,7 +49,7 @@ export default function Experience({Experience_ref}) {
             image={Chalkmate}
             alt="wireout logo"
             link="https://www.chalkmates.com/"
-            desc="• Developed the main website from scratch (5K Monthly traffic), Implemented course monetisation flow using GraphQL and Redux.
+            desc="Developed the main website from scratch (5K Monthly traffic), Implemented course monetisation flow using GraphQL and Redux.
             and Integrated Three-way-handshake Razorpay Payment gateway."
             position="Nov 2022 Jan 2023"
           />
