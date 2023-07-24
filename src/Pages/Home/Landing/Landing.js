@@ -26,9 +26,8 @@ function Landing({Landing_ref}) {
           className={styles.mainLeft}
         >
           <p>
-            Hey! This is <b>Ayush,</b>
+            This is <b>Ayush, a <u>frontend engineer</u> with 2+ yrs of exp</b>
           </p>
-
           <p>
             As a <b>developer</b>, my superpower happens behind the scenes to
             make a digital product look great, work fast and perform well with a

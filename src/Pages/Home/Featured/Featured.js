@@ -31,6 +31,26 @@ export default function Featured({Exploration_ref}) {
         </h3>
 
         <div className={styles.projects}>
+        <Card
+            name={"Gollaa"}
+            image={Gollaa}
+            alt="pro"
+            desc="A Freelancing project, Developed complete main website which consists of a landing page with animations and transitions along with blog
+             and stories sections ( 11 pages ) using React and Sass."
+            link="https://gollaa.web.app/home"
+            sourceCode = "https://github.com/ayush-lab/Gollaa_LandingPage"
+            position="Freelancing"
+          />
+          <Card
+            name={"Music Player"}
+            image={MusicPlayer}
+            alt="pro"
+            desc="Music player developed using GraphQL, Redux, React. Did not use any external library for 
+            building the music player."
+            link="https://delicate-cajeta-a5d945.netlify.app/"
+            sourceCode="https://github.com/ayush-lab/musicPlayer"
+            position="Side Project"
+          />
           <Card
             name={"Saheli"}
             image={Saheli}
@@ -60,26 +80,7 @@ export default function Featured({Exploration_ref}) {
             sourceCode="https://github.com/ayush-lab/TrelloClone"
             position="React"
           />
-          <Card
-            name={"Gollaa"}
-            image={Gollaa}
-            alt="pro"
-            desc="A Freelancing project, Developed complete main website which consists of a landing page with animations and transitions along with blog
-             and stories sections ( 11 pages ) using React and Sass."
-            link="https://gollaa.web.app/home"
-            sourceCode = "https://github.com/ayush-lab/Gollaa_LandingPage"
-            position="Freelancing"
-          />
-          <Card
-            name={"Music Player"}
-            image={MusicPlayer}
-            alt="pro"
-            desc="Music player developed using GraphQL, Redux, React. Did not use any external library for 
-            building the music player."
-            link="https://delicate-cajeta-a5d945.netlify.app/"
-            sourceCode="https://github.com/ayush-lab/musicPlayer"
-            position="Side Project"
-          />
+         
 
         </div>
       </div>
