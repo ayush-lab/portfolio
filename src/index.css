@@ -6,91 +6,102 @@
   src: url("Assets/fonts/Poppins-Black.ttf");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Popins";
   src: url("Assets/fonts/Poppins-BlackItalic.ttf");
   font-weight: normal;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
   font-family: "Popins";
   src: url("Assets/fonts/Poppins-Bold.ttf");
   font-weight: 400;
   font-style: bold;
+  font-display: swap;
 }
 @font-face {
   font-family: "Popins";
   src: url("Assets/fonts/Poppins-ExtraBold.ttf");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Popins";
   src: url("Assets/fonts/Poppins-ExtraLight.ttf");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Popins";
   src: url("Assets/fonts/Poppins-Medium.ttf");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
-
 
 @font-face {
   font-family: "Popins";
   src: url("Assets/fonts/Poppins-Black.ttf");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Popins";
   src: url("Assets/fonts/Poppins-BlackItalic.ttf");
   font-weight: normal;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
   font-family: "Popins";
   src: url("Assets/fonts/Poppins-Bold.ttf");
   font-weight: 400;
   font-style: bold;
+  font-display: swap;
 }
 @font-face {
   font-family: "Popins";
   src: url("Assets/fonts/Poppins-ExtraBold.ttf");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Popins";
   src: url("Assets/fonts/Poppins-ExtraLight.ttf");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Popins";
   src: url("Assets/fonts/Poppins-Medium.ttf");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
-
 /* arimo */
-
 
 @font-face {
   font-family: "Arimo";
   src: url("Assets/fonts/Arimo-Medium.ttf");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Arimo";
   src: url("Assets/fonts/Arimo-Regular.ttf");
   font-weight: 200;
+  font-display: swap;
   font-style: normal;
 }
 
@@ -99,12 +110,16 @@
   src: url("Assets/fonts/Cormorant-Medium.ttf");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+
 }
 @font-face {
   font-family: "Cormorant";
   src: url("Assets/fonts/Cormorant-Light.ttf");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
+
 }
 
 body {
@@ -155,7 +170,6 @@ h1 {
 
 .ant-carousel .slick-dots li button{
   background-color: white !important;
-  /* border: solid 0.5px grey !important;  */
 }
 
 body::-webkit-scrollbar-track
@@ -182,25 +196,8 @@ body::-webkit-scrollbar-thumb
   }
 }
 
-/* .line{
-  display: flex;
-
-  width: 95vw;
-  background-color: #272727;
-
-}
-
-.line_break{
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  height:0.1px;
-  background-color:#585b63;
-}  */
 
 
 .ant-btn:focus, .ant-btn:hover {
-  /* color: white; */
   border-color: red !important;
-  /* background: #fff !important; */
 }
