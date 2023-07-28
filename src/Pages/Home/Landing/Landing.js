@@ -1,11 +1,5 @@
 import React from "react";
 import styles from "./Landing.module.css";
-// import Ayush from "../../../Assets/Images/hero.svg";
-// // import Typer from '../../../Components/Typer';
-// import Github from '../../../Assets/Images/github.svg';
-// import LinkedIn from '../../../Assets/Images/linkedin.svg';
-// import Instagram from '../../../Assets/Images/instagram.svg';
-// import Label from '../../../Components/Label/Label';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { ArrowUpOutlined } from "@ant-design/icons";

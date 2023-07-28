@@ -1,24 +1,24 @@
 import React from "react";
-import Javascript from "../../../Assets/Images/js.png";
-import ReactLogo from "../../../Assets/Images/reactJs.png";
-import Redux from "../../../Assets/Images/redux.png";
-import Html from "../../../Assets/Images/html.png";
-import Css from "../../../Assets/Images/css.png";
-import Figma from "../../../Assets/Images/figma.png";
+import Javascript from "../../../Assets/Images/js.webp";
+import ReactLogo from "../../../Assets/Images/reactJs.webp";
+import Redux from "../../../Assets/Images/redux.webp";
+import Html from "../../../Assets/Images/html.webp";
+import Css from "../../../Assets/Images/css.webp";
+import Figma from "../../../Assets/Images/figma.webp";
 
-import Node from "../../../Assets/Images/node.png";
-import Express from "../../../Assets/Images/express.png";
-import Redis from "../../../Assets/Images/redis.png";
-import SQL from "../../../Assets/Images/sql.png";
+import Node from "../../../Assets/Images/node.webp";
+import Express from "../../../Assets/Images/express.webp";
+import Redis from "../../../Assets/Images/redis.webp";
+import SQL from "../../../Assets/Images/sql.webp";
 
-import Jest from "../../../Assets/Images/jest.png";
-import Docker from "../../../Assets/Images/docker.png";
-import Postman from "../../../Assets/Images/postman.png";
-import Mongo from "../../../Assets/Images/mongo.png";
+import Jest from "../../../Assets/Images/jest.webp";
+import Docker from "../../../Assets/Images/docker.webp";
+import Postman from "../../../Assets/Images/postman.webp";
+import Mongo from "../../../Assets/Images/mongo.webp";
 
-import Cpp from "../../../Assets/Images/cpp.png";
-// import Sass from "../../../Assets/Images/sass.png";
-import Git from "../../../Assets/Images/git.png";
+import Cpp from "../../../Assets/Images/cpp.webp";
+// import Sass from "../../../Assets/Images/sass.webp";
+import Git from "../../../Assets/Images/git.webp";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -118,18 +118,6 @@ export default function Skills({Skills_ref}) {
             <img src={Git} alt="git logo" title="Git" />
 
           </div>
-        </div>
-      </div>
-
-      <div class="line">
-        <div
-          data-aos="zoom-out"
-          data-aos-anchor-placement="top-center"
-          data-aos-duration="1500"
-          data-aos-once="true"
-          class="line_break"
-        >
-          {" "}
         </div>
       </div>
     </>

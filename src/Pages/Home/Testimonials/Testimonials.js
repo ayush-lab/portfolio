@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Testimonials.module.css";
-import MadhurSir from "../../../Assets/Images/madhursir.jpg";
-import ArnavSir from "../../../Assets/Images/arnavsir.jpg";
+import MadhurSir from "../../../Assets/Images/madhursir.webp";
+import ArnavSir from "../../../Assets/Images/arnavsir.webp";
 import TestiProfile from "../../../Components/Testi/Testi";
 import Aos from "aos";
 import "aos/dist/aos.css";

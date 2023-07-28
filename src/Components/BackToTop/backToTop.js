@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styles from "./backToTop.module.css";
-import ArrowUp from "../../Assets/Images/up-arrow.png";
+import ArrowUp from "../../Assets/Images/up-arrow.webp";
 // import { Modal } from "react-bootstrap";
 
 class BackToTop extends Component {

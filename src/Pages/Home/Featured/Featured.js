@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "../../../Components/FeaturedCard/Card";
 import styles from "./Featured.module.css";
-import Saheli from "../../../Assets/Images/saheli.png";
-import Birdminton from "../../../Assets/Images/birdminton.png";
+import Saheli from "../../../Assets/Images/saheli.webp";
+import Birdminton from "../../../Assets/Images/birdminton.webp";
 
-import Trello from "../../../Assets/Images/trello.png";
-import Gollaa from "../../../Assets/Images/golaa.png";
+import Trello from "../../../Assets/Images/trello.webp";
+import Gollaa from "../../../Assets/Images/golaa.webp";
 import MusicPlayer from "../../../Assets/Images/musicplayer.svg";
 
 import Aos from "aos";

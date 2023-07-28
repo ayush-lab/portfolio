@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "../../../Components/FeaturedCard/Card";
 import styles from "./Experience.module.css";
-import SI from "../../../Assets/Images/SI.png";
-import AICTE from "../../../Assets/Images/AICTE.png";
-import Answer from "../../../Assets/Images/Answer.png";
-import Repairo from "../../../Assets/Images/RepairoEx.png";
-import Gollaa from "../../../Assets/Images/gollaaEx.png";
+import SI from "../../../Assets/Images/SI.webp";
+import AICTE from "../../../Assets/Images/AICTE.webp";
+import Answer from "../../../Assets/Images/Answer.webp";
+import Repairo from "../../../Assets/Images/RepairoEx.webp";
+import Gollaa from "../../../Assets/Images/gollaaEx.webp";
 import Chalkmate from '../../../Assets/Images/chalkmatess.svg';
 import Amazon from "../../../Assets/Images/amazon.svg"
 

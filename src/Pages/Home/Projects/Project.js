@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import styles from "./Project.module.css";
-import Bytepad from "../../../Assets/Images/Bytepad.png";
-import Coursera from "../../../Assets/Images/Coursera.png";
-import Repairo from "../../../Assets/Images/Repairo.png";
+import Bytepad from "../../../Assets/Images/Bytepad.webp";
+import Coursera from "../../../Assets/Images/Coursera.webp";
+import Repairo from "../../../Assets/Images/Repairo.webp";
 import Chalkmate from "../../../Assets/Images/chalkmates.svg";
 import ProjectTem from "../../../Components/ProjectTemplate/ProjectTem";
 import Aos from "aos";

@@ -1,18 +1,16 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./Footer.module.css";
-import Github from "../../../Assets/Images/github.png";
-import LinkedIn from "../../../Assets/Images/linkedin.png";
-import Instagram from "../../../Assets/Images/insta.png";
-import Codeforces from "../../../Assets/Images/codeforces.png";
-import Codechef from "../../../Assets/Images/codechef.png";
-import Gfg from "../../../Assets/Images/gfg.png";
-import Leet from "../../../Assets/Images/leetcode.png";
+import Github from "../../../Assets/Images/github.webp";
+import LinkedIn from "../../../Assets/Images/linkedin.webp";
+import Instagram from "../../../Assets/Images/insta.webp";
+import Codeforces from "../../../Assets/Images/codeforces.webp";
+import Codechef from "../../../Assets/Images/codechef.webp";
+import Gfg from "../../../Assets/Images/gfg.webp";
+import Leet from "../../../Assets/Images/leetcode.webp";
 import {ArrowUpOutlined } from '@ant-design/icons'
 import { Button } from "antd";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import arrowUp from '../../../Assets/Images/arrowup.png'
-// import { propTypes } from "react-animated-cursor";
 
 export default function Footer(props) {
   React.useEffect(() => {
