@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=VT323');
+/* @import url('https://fonts.googleapis.com/css?family=VT323'); */
 
 
 @font-face {
@@ -122,6 +122,19 @@
 
 }
 
+html {
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
 body {
   margin: 0;
   padding:0;
@@ -133,12 +146,7 @@ body {
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-  width: 100vw;
-  height: 100vh;
-  overflow-x: hidden;
-}
+
 
 .app{
   width: 100vw;

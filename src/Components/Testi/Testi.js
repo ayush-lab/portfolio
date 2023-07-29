@@ -3,10 +3,7 @@ import styles from './Testi.module.css';
 import { Tag } from 'antd';
 import Aos from "aos";
 import "aos/dist/aos.css";
-
-    
   
-
 
 export default function TestiProfile(props) {
 
@@ -16,7 +13,11 @@ export default function TestiProfile(props) {
     
     return (
         <>
-            <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1500" data-aos-once="true" className={styles.CarousalSlide}>
+            <div data-aos="fade-up" 
+                 data-aos-anchor-placement="top-center" 
+                 data-aos-duration="1500" 
+                 data-aos-once="true" 
+                 className={styles.CarousalSlide}>
 
                 <a href={props.link} target="_blank" rel="noopener noreferrer">
                     <div className={styles.imageIcon}>
@@ -32,8 +33,6 @@ export default function TestiProfile(props) {
                     <Tag color="red">{props.tag1}</Tag>
                     <Tag color="red">{props.tag2}</Tag>
                     <Tag color="red">{props.tag3}</Tag> 
-                    {/* <p className={styles.subName}>Currently working at {props.tag1}</p> */}
-
                 </div>
             </div>
         </>

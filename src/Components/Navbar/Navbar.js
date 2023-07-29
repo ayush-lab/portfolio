@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { NavLink } from "react-router-dom";
 // import logo from "../../Assets/Images/logo.png";
-import logo from '../../Assets/Images/logoo.svg'
+import logo from '../../Assets/Images/logoo.webp'
 import { MenuOutlined, CloseOutlined} from "@ant-design/icons";
 
 export default function Navbar(props) {
-  const [userLoggedIn, setUserLoggedIn] = useState(false);
+  // const [userLoggedIn, setUserLoggedIn] = useState(false);
   const [open, setOpen] = React.useState(false);
 
   React.useEffect(() => {
@@ -56,36 +56,38 @@ export default function Navbar(props) {
               className={open ? styles.NavbarTogglerMenu : styles.none}
             >
               <div className={styles.TogglerLinks}>
-                <span
-                  onClick={props.onClickProject}
-                  className={styles.TogglerLink}
-                >
-                  <li>Projects</li>
-                </span>
-                <span
-                  onClick={props.onClickExploration}
-                  className={styles.TogglerLink}
-                >
-                  <li>Exploration</li>
-                </span>
-                <span
-                  onClick={props.onClickSkills}
-                  className={styles.TogglerLink}
-                >
-                  <li>Skills</li>
-                </span>
-                <span
-                  onClick={props.onClickExperience}
-                  className={styles.TogglerLink}
-                >
-                  <li>Experiences</li>
-                </span>
-                <span
-                  onClick={props.onClickProfile}
-                  className={styles.TogglerLink}
-                >
-                  <li>Profiles</li>
-                </span>
+                <ul>
+                  <span
+                    onClick={props.onClickProject}
+                    className={styles.TogglerLink}
+                  >
+                    <li>Projects</li>
+                  </span>
+                  <span
+                    onClick={props.onClickExploration}
+                    className={styles.TogglerLink}
+                  >
+                    <li>Exploration</li>
+                  </span>
+                  <span
+                    onClick={props.onClickSkills}
+                    className={styles.TogglerLink}
+                  >
+                    <li>Skills</li>
+                  </span>
+                  <span
+                    onClick={props.onClickExperience}
+                    className={styles.TogglerLink}
+                  >
+                    <li>Experiences</li>
+                  </span>
+                  <span
+                    onClick={props.onClickProfile}
+                    className={styles.TogglerLink}
+                  >
+                    <li>Profiles</li>
+                  </span>
+                </ul>
               </div>
             </div>
           </div>

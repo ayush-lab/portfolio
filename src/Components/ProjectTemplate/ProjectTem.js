@@ -42,7 +42,7 @@ export default function ProjectTem(props) {
       </div>
 
       <div className={styles.Right}>
-        <img src={props.image} />
+        <img src={props.image} alt={props.title}/>
       </div>
     </div>
   );

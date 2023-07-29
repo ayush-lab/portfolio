@@ -3,7 +3,7 @@ import styles from "./Project.module.css";
 import Bytepad from "../../../Assets/Images/Bytepad.webp";
 import Coursera from "../../../Assets/Images/Coursera.webp";
 import Repairo from "../../../Assets/Images/Repairo.webp";
-import Chalkmate from "../../../Assets/Images/chalkmates.svg";
+import Chalkmate from "../../../Assets/Images/chalkmates.webp";
 import ProjectTem from "../../../Components/ProjectTemplate/ProjectTem";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -30,7 +30,7 @@ export default function Project({Project_ref}) {
             skill1="react"
             skill2="redux"
             skill3="AWS"
-            skill4="ANT DESIGN"
+            skill4="Ant Design"
             link="https://bytepad.silive.in/"
             image={Bytepad}
           />
@@ -48,7 +48,7 @@ export default function Project({Project_ref}) {
             skill1="MERN"
             skill2="Redux"
             skill3="Redis"
-            skill4="Sockets"
+            skill4="Rest APIs"
             skill5="Docker"
             link="https://github.com/ayush-lab/Coursera-Clone"
             image={Coursera}

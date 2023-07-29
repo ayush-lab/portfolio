@@ -6,8 +6,8 @@ import AICTE from "../../../Assets/Images/AICTE.webp";
 import Answer from "../../../Assets/Images/Answer.webp";
 import Repairo from "../../../Assets/Images/RepairoEx.webp";
 import Gollaa from "../../../Assets/Images/gollaaEx.webp";
-import Chalkmate from '../../../Assets/Images/chalkmatess.svg';
-import Amazon from "../../../Assets/Images/amazon.svg"
+import Chalkmate from '../../../Assets/Images/chalkmatess.webp';
+import Amazon from "../../../Assets/Images/amazon.webp"
 
 import Aos from "aos";
 import "aos/dist/aos.css";

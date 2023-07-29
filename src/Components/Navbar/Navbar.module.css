@@ -82,6 +82,10 @@
     overflow: hidden;
 }
 
+.TogglerLinks li:active{
+    background-color: red;
+}
+
 
 /* media queries */
 

@@ -6,7 +6,7 @@ import Birdminton from "../../../Assets/Images/birdminton.webp";
 
 import Trello from "../../../Assets/Images/trello.webp";
 import Gollaa from "../../../Assets/Images/golaa.webp";
-import MusicPlayer from "../../../Assets/Images/musicplayer.svg";
+import MusicPlayer from "../../../Assets/Images/musicplayer.webp";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
