@@ -7,6 +7,10 @@
     display: flex;
     justify-content: center;
     margin-bottom: 24px;
+    /* border: 1px solid #585b63; */
+    ;
+    /* padding-top:32px; */
+    /* padding-bottom:32px; */
 }
 .imageIcon img{
     border-radius: 50%;
@@ -24,9 +28,15 @@
     padding-bottom: 20px;
     padding-top:10px;
 }
-.name,.subName{
+.name,.subName,.position{
     color:white;
     font-weight: 600;
+}
+.position{
+    font-family: "Cormorant" ;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline #585b63;
 }
 .subName{
     font-family: "Arimo";
@@ -67,10 +77,16 @@
     .textCarousal{
         font-size:16px;
     }
+    .position{
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width:450px) {
     .textCarousal{
         font-size:14px;
+    }
+    .position{
+        font-size: 14px;
     }
 }

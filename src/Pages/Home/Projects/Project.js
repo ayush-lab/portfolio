@@ -28,9 +28,10 @@ export default function Project({Project_ref}) {
          Loading) Tech used: React, Redux, Spring, AWS."
         
             skill1="react"
-            skill2="redux"
+            skill2="JavaScript"
             skill3="AWS"
-            skill4="Ant Design"
+            skill4="Redux"
+            skill5="Ant Design"
             link="https://bytepad.silive.in/"
             image={Bytepad}
           />

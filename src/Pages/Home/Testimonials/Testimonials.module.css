@@ -8,14 +8,11 @@
     border-bottom: 0.1px solid #585b63;
 }
 .Heading{
-    margin-bottom:16px;
+    margin-bottom:4px;
 }
-.Heading,.subHeading{
+.Heading{
     font-family: "Arimo";
     color:white;
-}
-.subHeading{
-    font-weight: 400;
 }
 
 .Carousal{
@@ -32,13 +29,8 @@
     
     }
     .Heading{
-        margin-bottom:16px;
+        margin-bottom:4px;
         font-size:24px;
-    }
-    .subHeading{
-        font-weight: 400;
-        font-size:16px;
-
     }
     
     .Carousal{

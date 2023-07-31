@@ -85,6 +85,7 @@
     margin: 0;
     font-family: "Cormorant";
     font-size:16px;
+
 }
 
 .CardHover{
@@ -99,18 +100,26 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding:12px;
-
 }
 
 .CardHoverText{
     color:white;
     opacity: 1 !important;
+    transform: translateY(50px);
+
 }
 
 .CardHover:hover{
     opacity: 0.7;
-    transition: all 0.2s;
+    transition: all 0.5s ease-in;
     user-select: none;
+
+}
+
+.CardHover:hover .CardHoverText{
+    transition: all 0.45s ease-in;
+    transform: translateY(0);
+
 }
 
 

@@ -24,12 +24,14 @@ export default function TestiProfile(props) {
                         <img src={props.img} alt={props.alt}></img>
                     </div>
                 </a>
+                <h4 className={styles.name}>{props.name}</h4>
+
+                <p className={styles.position}>{props.position}</p>
 
                 <p className={styles.textCarousal}>{props.text}</p>
 
-
                 <div className={styles.tags}>
-                    <h4 className={styles.name}>{props.name}</h4>
+
                     <Tag color="red">{props.tag1}</Tag>
                     <Tag color="red">{props.tag2}</Tag>
                     <Tag color="red">{props.tag3}</Tag> 
