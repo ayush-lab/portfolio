@@ -53,7 +53,6 @@ function Home() {
       <Landing Landing_ref={Landing_ref}/>
       <Project Project_ref={Project_ref} />
       <Experience Experience_ref={Experience_ref}/>
-
       <Featured  Exploration_ref={ Exploration_ref}/>
       <Skills Skills_ref={Skills_ref}/>
       <Testi />
