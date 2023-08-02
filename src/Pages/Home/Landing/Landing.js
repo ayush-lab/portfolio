@@ -30,7 +30,7 @@ function Landing({Landing_ref}) {
           className={styles.mainLeft}
         >
           <p>
-            This is <b>Ayush, a Frontend engineer with 2+ yrs of exp</b>
+            This is <b>Ayush, a Frontend engineer with 2+ years of experience</b>
           </p>
           <p>
             As a <b>developer</b>, my superpower happens behind the scenes to
